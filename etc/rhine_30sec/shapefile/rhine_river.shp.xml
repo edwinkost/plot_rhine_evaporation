@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20151204</CreaDate><CreaTime>18032400</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files (x86)\arcgis\desktop10.1\ArcToolbox\Toolboxes\Conversion Tools.tbx\RasterToPolyline" Date="20151204" Time="180324">RasterToPolyline rhine_river.tif D:\EdwinSURFdrive\admin\AGU_2015\poster\HyperHydro\Rhine\scripts\rhine_river.shp ZERO 0 NO_SIMPLIFY Value</Process></lineage></DataProperties></Esri></metadata>

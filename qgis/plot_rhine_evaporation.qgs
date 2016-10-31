@@ -1,0 +1,2904 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="2.0.1-Dufour">
+    <title></title>
+    <mapcanvas>
+        <units>meters</units>
+        <extent>
+            <xmin>-2210071.70424199104309082</xmin>
+            <ymin>-1231415.40658660768531263</ymin>
+            <xmax>342584.53624235594179481</xmax>
+            <ymax>103187.31896653334842995</ymax>
+        </extent>
+        <projections>1</projections>
+        <destinationsrs>
+            <spatialrefsys>
+                <proj4>+proj=laea +lat_0=55 +lon_0=20 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs</proj4>
+                <srsid>100000</srsid>
+                <srid>0</srid>
+                <authid>USER:100000</authid>
+                <description> * Generated CRS (+proj=laea +lat_0=55 +lon_0=20 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs)</description>
+                <projectionacronym>laea</projectionacronym>
+                <ellipsoidacronym>WGS84</ellipsoidacronym>
+                <geographicflag>false</geographicflag>
+            </spatialrefsys>
+        </destinationsrs>
+    </mapcanvas>
+    <legend updateDrawingOrder="true" activeLayer="mhm_0p062520151207224013840">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="rhine_river.laea" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="rhine_river_laea20151206164006105" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="AUT_adm0.laea" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="AUT_adm0_laea20151206164016210" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="NLD_adm0.laea" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="NLD_adm0_laea20151206164033443" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="LUX_adm0.laea" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="LUX_adm0_laea20151206164033376" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="FRA_adm0.laea" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="FRA_adm0_laea20151206164033308" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="DEU_adm0.laea" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="DEU_adm0_laea20151206164033243" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="CHE_adm0.laea" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="CHE_adm0_laea20151206164033172" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="BEL_adm0.laea" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="BEL_adm0_laea20151206164033106" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="mhm_0p5" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="mhm_0p520151207223959646" visible="0"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="mhm_0p0625" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="mhm_0p062520151207224013840" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="totalEvaporation_annuaTot_output.2003" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="1" layerid="totalEvaporation_annuaTot_output_200320151206175736511" visible="0"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="totalEvaporation_annuaTot_output.2003.laea" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="totalEvaporation_annuaTot_output_2003_laea20151206164151235" visible="0"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="watergap_30arcmin" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="watergap_30arcmin20151206175718824" visible="0"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="watergap_5arcmin" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="watergap_5arcmin20151206175704355" visible="0"/>
+            </filegroup>
+        </legendlayer>
+    </legend>
+    <Composer title="plot" visible="1">
+        <Composition printResolution="300" paperWidth="420" snapGridOffsetX="0" snapGridResolution="10" snapGridOffsetY="0" alignmentSnap="1" snapping="1" numPages="1" paperHeight="594" alignmentSnapTolerance="2" printAsRaster="0">
+            <ComposerLegend symbolWidth="25" title="evaporation" boxSpace="2" splitLayer="0" equalColumnWidth="0" map="3" symbolHeight="11" wrapChar="" fontColor="#000000" columnSpace="2" columnCount="1">
+                <styles>
+                    <style marginBottom="2" name="title" font="Cantarell,36,-1,5,50,0,0,0,0,0"/>
+                    <style marginTop="2" name="group" font="Cantarell,14,-1,5,50,0,0,0,0,0"/>
+                    <style marginTop="2" name="subgroup" font="Cantarell,1,-1,5,50,0,0,0,0,0"/>
+                    <style marginTop="2" name="symbol" font="Cantarell,11,-1,5,50,0,0,0,0,0"/>
+                    <style marginTop="2" marginLeft="2" name="symbolLabel" font="Cantarell,24,-1,5,50,0,0,0,0,0"/>
+                </styles>
+                <Model autoUpdate="1">
+                    <LayerItem layerId="totalEvaporation_annuaTot_output_200320151206175736511" userText="" style="subgroup" text="totalEvaporation_annuaTot_output.2003" showFeatureCount="0">
+                        <RasterClassificationItem layerId="totalEvaporation_annuaTot_output_200320151206175736511" userText="" color="#1316b4" text="0 mm/year"/>
+                        <RasterClassificationItem layerId="totalEvaporation_annuaTot_output_200320151206175736511" userText="" color="#2331c7" text="50"/>
+                        <RasterClassificationItem layerId="totalEvaporation_annuaTot_output_200320151206175736511" userText="" color="#3755cb" text="100"/>
+                        <RasterClassificationItem layerId="totalEvaporation_annuaTot_output_200320151206175736511" userText="" color="#365fc6" text="150"/>
+                        <RasterClassificationItem layerId="totalEvaporation_annuaTot_output_200320151206175736511" userText="" color="#507dd2" text="200"/>
+                        <RasterClassificationItem layerId="totalEvaporation_annuaTot_output_200320151206175736511" userText="" color="#598dd6" text="250"/>
+                        <RasterClassificationItem layerId="totalEvaporation_annuaTot_output_200320151206175736511" userText="" color="#7eb9e9" text="300"/>
+                        <RasterClassificationItem layerId="totalEvaporation_annuaTot_output_200320151206175736511" userText="" color="#a5d7ff" text="350"/>
+                        <RasterClassificationItem layerId="totalEvaporation_annuaTot_output_200320151206175736511" userText="" color="#b4dfa8" text="400"/>
+                        <RasterClassificationItem layerId="totalEvaporation_annuaTot_output_200320151206175736511" userText="" color="#b0d793" text="450"/>
+                        <RasterClassificationItem layerId="totalEvaporation_annuaTot_output_200320151206175736511" userText="" color="#dbc85b" text="500"/>
+                        <RasterClassificationItem layerId="totalEvaporation_annuaTot_output_200320151206175736511" userText="" color="#debd50" text="550 "/>
+                        <RasterClassificationItem layerId="totalEvaporation_annuaTot_output_200320151206175736511" userText="" color="#d39242" text="600"/>
+                        <RasterClassificationItem layerId="totalEvaporation_annuaTot_output_200320151206175736511" userText="" color="#d1853e" text="650"/>
+                        <RasterClassificationItem layerId="totalEvaporation_annuaTot_output_200320151206175736511" userText="" color="#ca6232" text="700"/>
+                        <RasterClassificationItem layerId="totalEvaporation_annuaTot_output_200320151206175736511" userText="" color="#c74528" text="750"/>
+                    </LayerItem>
+                </Model>
+                <ComposerItem width="71.4016" x="0" transparency="0" y="170" rotation="0" height="234.6" positionMode="0" frame="false" outlineWidth="0.3" zValue="17" lastValidViewScaleFactor="1.46723" uuid="{9b658e2c-f552-4b13-aad5-e784856e7bd1}" id="" background="true" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerLegend>
+            <ComposerLabel valign="32" labelText="f) WaterGAP 5-min" htmlState="0" halign="1" margin="1">
+                <LabelFont description="Verdana,32,-1,5,50,0,0,0,0,0"/>
+                <FontColor red="0" blue="0" green="0"/>
+                <ComposerItem width="140" x="250" transparency="0" y="390" rotation="0" height="20" positionMode="0" frame="false" outlineWidth="0.3" zValue="8" lastValidViewScaleFactor="1.46723" uuid="{80142bb8-4116-434b-a750-7cae2d8b6582}" id="" background="false" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerLabel>
+            <ComposerLabel valign="32" labelText="e) WaterGAP 30-min" htmlState="0" halign="1" margin="1">
+                <LabelFont description="Verdana,32,-1,5,50,0,0,0,0,0"/>
+                <FontColor red="0" blue="0" green="0"/>
+                <ComposerItem width="140" x="90" transparency="0" y="390" rotation="0" height="20" positionMode="0" frame="false" outlineWidth="0.3" zValue="8" lastValidViewScaleFactor="1.46723" uuid="{db1fe17e-2bd6-4e65-8c52-ee2e556a1b0e}" id="" background="false" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerLabel>
+            <ComposerLabel valign="32" labelText="d) PCR-GLOBWB 5-min" htmlState="0" halign="1" margin="1">
+                <LabelFont description="Verdana,32,-1,5,50,0,0,0,0,0"/>
+                <FontColor red="0" blue="0" green="0"/>
+                <ComposerItem width="140" x="250" transparency="0" y="200" rotation="0" height="20" positionMode="0" frame="false" outlineWidth="0.3" zValue="8" lastValidViewScaleFactor="1.46723" uuid="{53afcfe9-dd8e-47c9-8ed7-ed7aa4a0ae46}" id="" background="false" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerLabel>
+            <ComposerLabel valign="32" labelText="c) PCR-GLOBWB 30-min" htmlState="0" halign="1" margin="1">
+                <LabelFont description="Verdana,32,-1,5,50,0,0,0,0,0"/>
+                <FontColor red="0" blue="0" green="0"/>
+                <ComposerItem width="140" x="90" transparency="0" y="200" rotation="0" height="20" positionMode="0" frame="false" outlineWidth="0.3" zValue="8" lastValidViewScaleFactor="1.46723" uuid="{149769ae-02c2-4fa9-816d-0cf0421bc818}" id="" background="false" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerLabel>
+            <ComposerLabel valign="32" labelText="b) mHM 0.0625-deg" htmlState="0" halign="1" margin="1">
+                <LabelFont description="Verdana,32,-1,5,50,0,0,0,0,0"/>
+                <FontColor red="0" blue="0" green="0"/>
+                <ComposerItem width="150" x="250" transparency="0" y="10" rotation="0" height="20" positionMode="0" frame="false" outlineWidth="0.3" zValue="8" lastValidViewScaleFactor="1.46723" uuid="{8d93c237-31a5-4b6d-9b60-90bda284d5ee}" id="" background="false" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerLabel>
+            <ComposerLabel valign="32" labelText="a) mHM 30-min" htmlState="0" halign="1" margin="1">
+                <LabelFont description="Verdana,32,-1,5,50,0,0,0,0,0"/>
+                <FontColor red="0" blue="0" green="0"/>
+                <ComposerItem width="110" x="90" transparency="0" y="10" rotation="0" height="20" positionMode="0" frame="false" outlineWidth="0.3" zValue="8" lastValidViewScaleFactor="1.46723" uuid="{f4a470a2-a1c4-4e85-8a9c-ac2ea9bd775f}" id="" background="false" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerLabel>
+            <ComposerMap keepLayerSet="true" overviewFrameMap="-1" id="3" previewMode="Render" drawCanvasItems="true">
+                <overviewFrame overviewBlendMode="0" overviewFrameMap="-1" overviewInverted="false">
+                    <symbol alpha="0.3" type="fill" name="">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_unit" v="MM"/>
+                            <prop k="color" v="255,0,0,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="no"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </overviewFrame>
+                <Extent ymin="-950000" xmin="-1.175e+06" ymax="-160000" xmax="-550000"/>
+                <LayerSet>
+                    <Layer>rhine_river_laea20151206164006105</Layer>
+                    <Layer>AUT_adm0_laea20151206164016210</Layer>
+                    <Layer>NLD_adm0_laea20151206164033443</Layer>
+                    <Layer>LUX_adm0_laea20151206164033376</Layer>
+                    <Layer>FRA_adm0_laea20151206164033308</Layer>
+                    <Layer>DEU_adm0_laea20151206164033243</Layer>
+                    <Layer>CHE_adm0_laea20151206164033172</Layer>
+                    <Layer>BEL_adm0_laea20151206164033106</Layer>
+                    <Layer>totalEvaporation_annuaTot_output_2003_laea20151206164151235</Layer>
+                </LayerSet>
+                <Grid gridStyle="0" crossLength="3" intervalX="0" offsetX="0" intervalY="0" offsetY="0" gridFrameStyle="0" gridFrameWidth="2" gridBlendMode="0" show="0">
+                    <symbol alpha="1" type="line" name="">
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="flat"/>
+                            <prop k="color" v="0,0,0,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.3"/>
+                            <prop k="width_unit" v="MM"/>
+                        </layer>
+                    </symbol>
+                    <Annotation rightDirection="0" bottomDirection="0" format="0" topPosition="1" precision="3" leftDirection="0" rightPosition="1" bottomPosition="1" frameDistance="1" show="0" font="Cantarell,11,-1,5,50,0,0,0,0,0" leftPosition="1" topDirection="0">
+                        <fontColor red="0" blue="0" green="0"/>
+                    </Annotation>
+                </Grid>
+                <ComposerItem width="140" x="260" transparency="0" y="200" rotation="0" height="176.96" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="1.46723" uuid="{dfe7fff5-b5e7-427d-ae06-9dd561055ce5}" id="" background="true" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerMap>
+            <ComposerMap keepLayerSet="true" overviewFrameMap="-1" id="2" previewMode="Render" drawCanvasItems="true">
+                <overviewFrame overviewBlendMode="0" overviewFrameMap="-1" overviewInverted="false">
+                    <symbol alpha="0.3" type="fill" name="">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_unit" v="MM"/>
+                            <prop k="color" v="255,0,0,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="no"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </overviewFrame>
+                <Extent ymin="-950000" xmin="-1.175e+06" ymax="-160000" xmax="-550000"/>
+                <LayerSet>
+                    <Layer>rhine_river_laea20151206164006105</Layer>
+                    <Layer>AUT_adm0_laea20151206164016210</Layer>
+                    <Layer>NLD_adm0_laea20151206164033443</Layer>
+                    <Layer>LUX_adm0_laea20151206164033376</Layer>
+                    <Layer>FRA_adm0_laea20151206164033308</Layer>
+                    <Layer>DEU_adm0_laea20151206164033243</Layer>
+                    <Layer>CHE_adm0_laea20151206164033172</Layer>
+                    <Layer>BEL_adm0_laea20151206164033106</Layer>
+                    <Layer>totalEvaporation_annuaTot_output_200320151206175736511</Layer>
+                </LayerSet>
+                <Grid gridStyle="0" crossLength="3" intervalX="0" offsetX="0" intervalY="0" offsetY="0" gridFrameStyle="0" gridFrameWidth="2" gridBlendMode="0" show="0">
+                    <symbol alpha="1" type="line" name="">
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="flat"/>
+                            <prop k="color" v="0,0,0,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.3"/>
+                            <prop k="width_unit" v="MM"/>
+                        </layer>
+                    </symbol>
+                    <Annotation rightDirection="0" bottomDirection="0" format="0" topPosition="1" precision="3" leftDirection="0" rightPosition="1" bottomPosition="1" frameDistance="1" show="0" font="Cantarell,11,-1,5,50,0,0,0,0,0" leftPosition="1" topDirection="0">
+                        <fontColor red="0" blue="0" green="0"/>
+                    </Annotation>
+                </Grid>
+                <ComposerItem width="140" x="90" transparency="0" y="200" rotation="0" height="176.96" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="1.46723" uuid="{cbff762b-4b17-4887-8e23-040401682abb}" id="" background="true" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerMap>
+            <ComposerMap keepLayerSet="true" overviewFrameMap="-1" id="4" previewMode="Render" drawCanvasItems="true">
+                <overviewFrame overviewBlendMode="0" overviewFrameMap="-1" overviewInverted="false">
+                    <symbol alpha="0.3" type="fill" name="">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_unit" v="MM"/>
+                            <prop k="color" v="255,0,0,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="no"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </overviewFrame>
+                <Extent ymin="-950000" xmin="-1.175e+06" ymax="-160000" xmax="-550000"/>
+                <LayerSet>
+                    <Layer>rhine_river_laea20151206164006105</Layer>
+                    <Layer>AUT_adm0_laea20151206164016210</Layer>
+                    <Layer>NLD_adm0_laea20151206164033443</Layer>
+                    <Layer>LUX_adm0_laea20151206164033376</Layer>
+                    <Layer>FRA_adm0_laea20151206164033308</Layer>
+                    <Layer>DEU_adm0_laea20151206164033243</Layer>
+                    <Layer>CHE_adm0_laea20151206164033172</Layer>
+                    <Layer>BEL_adm0_laea20151206164033106</Layer>
+                    <Layer>watergap_30arcmin20151206175718824</Layer>
+                </LayerSet>
+                <Grid gridStyle="0" crossLength="3" intervalX="0" offsetX="0" intervalY="0" offsetY="0" gridFrameStyle="0" gridFrameWidth="2" gridBlendMode="0" show="0">
+                    <symbol alpha="1" type="line" name="">
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="flat"/>
+                            <prop k="color" v="0,0,0,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.3"/>
+                            <prop k="width_unit" v="MM"/>
+                        </layer>
+                    </symbol>
+                    <Annotation rightDirection="0" bottomDirection="0" format="0" topPosition="1" precision="3" leftDirection="0" rightPosition="1" bottomPosition="1" frameDistance="1" show="0" font="Cantarell,11,-1,5,50,0,0,0,0,0" leftPosition="1" topDirection="0">
+                        <fontColor red="0" blue="0" green="0"/>
+                    </Annotation>
+                </Grid>
+                <ComposerItem width="140" x="90" transparency="0" y="390" rotation="0" height="176.96" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="1.46723" uuid="{3f5a17a6-4f0b-44b7-a753-779aee154b75}" id="" background="true" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerMap>
+            <ComposerMap keepLayerSet="true" overviewFrameMap="-1" id="5" previewMode="Render" drawCanvasItems="true">
+                <overviewFrame overviewBlendMode="0" overviewFrameMap="-1" overviewInverted="false">
+                    <symbol alpha="0.3" type="fill" name="">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_unit" v="MM"/>
+                            <prop k="color" v="255,0,0,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="no"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </overviewFrame>
+                <Extent ymin="-950000" xmin="-1.175e+06" ymax="-160000" xmax="-550000"/>
+                <LayerSet>
+                    <Layer>rhine_river_laea20151206164006105</Layer>
+                    <Layer>AUT_adm0_laea20151206164016210</Layer>
+                    <Layer>NLD_adm0_laea20151206164033443</Layer>
+                    <Layer>LUX_adm0_laea20151206164033376</Layer>
+                    <Layer>FRA_adm0_laea20151206164033308</Layer>
+                    <Layer>DEU_adm0_laea20151206164033243</Layer>
+                    <Layer>CHE_adm0_laea20151206164033172</Layer>
+                    <Layer>BEL_adm0_laea20151206164033106</Layer>
+                    <Layer>watergap_5arcmin20151206175704355</Layer>
+                </LayerSet>
+                <Grid gridStyle="0" crossLength="3" intervalX="0" offsetX="0" intervalY="0" offsetY="0" gridFrameStyle="0" gridFrameWidth="2" gridBlendMode="0" show="0">
+                    <symbol alpha="1" type="line" name="">
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="flat"/>
+                            <prop k="color" v="0,0,0,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.3"/>
+                            <prop k="width_unit" v="MM"/>
+                        </layer>
+                    </symbol>
+                    <Annotation rightDirection="0" bottomDirection="0" format="0" topPosition="1" precision="3" leftDirection="0" rightPosition="1" bottomPosition="1" frameDistance="1" show="0" font="Cantarell,11,-1,5,50,0,0,0,0,0" leftPosition="1" topDirection="0">
+                        <fontColor red="0" blue="0" green="0"/>
+                    </Annotation>
+                </Grid>
+                <ComposerItem width="140" x="260" transparency="0" y="390" rotation="0" height="176.96" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="1.46723" uuid="{9100ac6d-d0fa-4e6e-85ac-2918c27217ba}" id="" background="true" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerMap>
+            <ComposerMap keepLayerSet="true" overviewFrameMap="-1" id="6" previewMode="Render" drawCanvasItems="true">
+                <overviewFrame overviewBlendMode="0" overviewFrameMap="-1" overviewInverted="false">
+                    <symbol alpha="0.3" type="fill" name="">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_unit" v="MM"/>
+                            <prop k="color" v="255,0,0,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="no"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </overviewFrame>
+                <Extent ymin="-950000" xmin="-1.175e+06" ymax="-160000" xmax="-550000"/>
+                <LayerSet>
+                    <Layer>rhine_river_laea20151206164006105</Layer>
+                    <Layer>AUT_adm0_laea20151206164016210</Layer>
+                    <Layer>NLD_adm0_laea20151206164033443</Layer>
+                    <Layer>LUX_adm0_laea20151206164033376</Layer>
+                    <Layer>FRA_adm0_laea20151206164033308</Layer>
+                    <Layer>DEU_adm0_laea20151206164033243</Layer>
+                    <Layer>CHE_adm0_laea20151206164033172</Layer>
+                    <Layer>BEL_adm0_laea20151206164033106</Layer>
+                    <Layer>mhm_0p520151207223959646</Layer>
+                </LayerSet>
+                <Grid gridStyle="0" crossLength="3" intervalX="0" offsetX="0" intervalY="0" offsetY="0" gridFrameStyle="0" gridFrameWidth="2" gridBlendMode="0" show="0">
+                    <symbol alpha="1" type="line" name="">
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="flat"/>
+                            <prop k="color" v="0,0,0,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.3"/>
+                            <prop k="width_unit" v="MM"/>
+                        </layer>
+                    </symbol>
+                    <Annotation rightDirection="0" bottomDirection="0" format="0" topPosition="1" precision="3" leftDirection="0" rightPosition="1" bottomPosition="1" frameDistance="1" show="0" font="Cantarell,11,-1,5,50,0,0,0,0,0" leftPosition="1" topDirection="0">
+                        <fontColor red="0" blue="0" green="0"/>
+                    </Annotation>
+                </Grid>
+                <ComposerItem width="140" x="90" transparency="0" y="10" rotation="0" height="176.96" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="1.46723" uuid="{4097aea2-6ae1-4ec5-a1b6-113b140b3ede}" id="" background="true" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerMap>
+            <ComposerMap keepLayerSet="true" overviewFrameMap="-1" id="7" previewMode="Render" drawCanvasItems="true">
+                <overviewFrame overviewBlendMode="0" overviewFrameMap="-1" overviewInverted="false">
+                    <symbol alpha="0.3" type="fill" name="">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_unit" v="MM"/>
+                            <prop k="color" v="255,0,0,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="no"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </overviewFrame>
+                <Extent ymin="-950000" xmin="-1.175e+06" ymax="-160000" xmax="-550000"/>
+                <LayerSet>
+                    <Layer>rhine_river_laea20151206164006105</Layer>
+                    <Layer>AUT_adm0_laea20151206164016210</Layer>
+                    <Layer>NLD_adm0_laea20151206164033443</Layer>
+                    <Layer>LUX_adm0_laea20151206164033376</Layer>
+                    <Layer>FRA_adm0_laea20151206164033308</Layer>
+                    <Layer>DEU_adm0_laea20151206164033243</Layer>
+                    <Layer>CHE_adm0_laea20151206164033172</Layer>
+                    <Layer>BEL_adm0_laea20151206164033106</Layer>
+                    <Layer>mhm_0p062520151207224013840</Layer>
+                </LayerSet>
+                <Grid gridStyle="0" crossLength="3" intervalX="0" offsetX="0" intervalY="0" offsetY="0" gridFrameStyle="0" gridFrameWidth="2" gridBlendMode="0" show="0">
+                    <symbol alpha="1" type="line" name="">
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="flat"/>
+                            <prop k="color" v="0,0,0,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.3"/>
+                            <prop k="width_unit" v="MM"/>
+                        </layer>
+                    </symbol>
+                    <Annotation rightDirection="0" bottomDirection="0" format="0" topPosition="1" precision="3" leftDirection="0" rightPosition="1" bottomPosition="1" frameDistance="1" show="0" font="Cantarell,11,-1,5,50,0,0,0,0,0" leftPosition="1" topDirection="0">
+                        <fontColor red="0" blue="0" green="0"/>
+                    </Annotation>
+                </Grid>
+                <ComposerItem width="140" x="260" transparency="0" y="10" rotation="0" height="176.96" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="1.46723" uuid="{10989fe1-c5b2-4967-a957-509602794500}" id="" background="true" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerMap>
+        </Composition>
+    </Composer>
+    <projectlayers layercount="14">
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+            <id>AUT_adm0_laea20151206164016210</id>
+            <datasource>../background/countries/AUT_adm0.laea.shp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>AUT_adm0.laea</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=laea +lat_0=55 +lon_0=20 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs</proj4>
+                    <srsid>100000</srsid>
+                    <srid>0</srid>
+                    <authid>USER:100000</authid>
+                    <description> * Generated CRS (+proj=laea +lat_0=55 +lon_0=20 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs)</description>
+                    <projectionacronym>laea</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <provider encoding="System">ogr</provider>
+            <previewExpression></previewExpression>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_unit" v="MM"/>
+                            <prop k="color" v="32,163,61,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="style" v="no"/>
+                            <prop k="style_border" v="dot"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field="" scalemethod="area"/>
+            </renderer-v2>
+            <customproperties>
+                <property key="labeling" value="pal"/>
+                <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
+                <property key="labeling/blendMode" value="0"/>
+                <property key="labeling/bufferBlendMode" value="0"/>
+                <property key="labeling/bufferColorA" value="255"/>
+                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorG" value="255"/>
+                <property key="labeling/bufferColorR" value="255"/>
+                <property key="labeling/bufferDraw" value="false"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/decimals" value="3"/>
+                <property key="labeling/displayAll" value="false"/>
+                <property key="labeling/dist" value="0"/>
+                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/enabled" value="false"/>
+                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/fontBold" value="false"/>
+                <property key="labeling/fontCapitals" value="0"/>
+                <property key="labeling/fontFamily" value="Cantarell"/>
+                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="false"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="11"/>
+                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontStrikeout" value="false"/>
+                <property key="labeling/fontUnderline" value="false"/>
+                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="false"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
+                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="2000"/>
+                <property key="labeling/mergeLines" value="false"/>
+                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value="Regular"/>
+                <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
+                <property key="labeling/placement" value="0"/>
+                <property key="labeling/placementFlags" value="0"/>
+                <property key="labeling/plussign" value="false"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+                <property key="labeling/priority" value="5"/>
+                <property key="labeling/quadOffset" value="4"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
+                <property key="labeling/scaleMax" value="10000000"/>
+                <property key="labeling/scaleMin" value="1"/>
+                <property key="labeling/scaleVisibility" value="false"/>
+                <property key="labeling/shadowBlendMode" value="6"/>
+                <property key="labeling/shadowColorB" value="0"/>
+                <property key="labeling/shadowColorG" value="0"/>
+                <property key="labeling/shadowColorR" value="0"/>
+                <property key="labeling/shadowDraw" value="false"/>
+                <property key="labeling/shadowOffsetAngle" value="135"/>
+                <property key="labeling/shadowOffsetDist" value="1"/>
+                <property key="labeling/shadowOffsetGlobal" value="true"/>
+                <property key="labeling/shadowOffsetUnits" value="1"/>
+                <property key="labeling/shadowRadius" value="1.5"/>
+                <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+                <property key="labeling/shadowRadiusUnits" value="1"/>
+                <property key="labeling/shadowScale" value="100"/>
+                <property key="labeling/shadowTransparency" value="30"/>
+                <property key="labeling/shadowUnder" value="0"/>
+                <property key="labeling/shapeBlendMode" value="0"/>
+                <property key="labeling/shapeBorderColorA" value="255"/>
+                <property key="labeling/shapeBorderColorB" value="128"/>
+                <property key="labeling/shapeBorderColorG" value="128"/>
+                <property key="labeling/shapeBorderColorR" value="128"/>
+                <property key="labeling/shapeBorderWidth" value="0"/>
+                <property key="labeling/shapeBorderWidthUnits" value="1"/>
+                <property key="labeling/shapeDraw" value="false"/>
+                <property key="labeling/shapeFillColorA" value="255"/>
+                <property key="labeling/shapeFillColorB" value="255"/>
+                <property key="labeling/shapeFillColorG" value="255"/>
+                <property key="labeling/shapeFillColorR" value="255"/>
+                <property key="labeling/shapeJoinStyle" value="64"/>
+                <property key="labeling/shapeOffsetUnits" value="1"/>
+                <property key="labeling/shapeOffsetX" value="0"/>
+                <property key="labeling/shapeOffsetY" value="0"/>
+                <property key="labeling/shapeRadiiUnits" value="1"/>
+                <property key="labeling/shapeRadiiX" value="0"/>
+                <property key="labeling/shapeRadiiY" value="0"/>
+                <property key="labeling/shapeRotation" value="0"/>
+                <property key="labeling/shapeRotationType" value="0"/>
+                <property key="labeling/shapeSVGFile" value=""/>
+                <property key="labeling/shapeSizeType" value="0"/>
+                <property key="labeling/shapeSizeUnits" value="1"/>
+                <property key="labeling/shapeSizeX" value="0"/>
+                <property key="labeling/shapeSizeY" value="0"/>
+                <property key="labeling/shapeTransparency" value="0"/>
+                <property key="labeling/shapeType" value="0"/>
+                <property key="labeling/textColorA" value="255"/>
+                <property key="labeling/textColorB" value="0"/>
+                <property key="labeling/textColorG" value="0"/>
+                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value=""/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+            </customproperties>
+            <blendMode>0</blendMode>
+            <featureBlendMode>0</featureBlendMode>
+            <layerTransparency>0</layerTransparency>
+            <displayfield>NAME_ENGLI</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Cantarell"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype labelontop="0" editable="1" type="0" name="ACP"/>
+                <edittype labelontop="0" editable="1" type="0" name="AOSIS"/>
+                <edittype labelontop="0" editable="1" type="0" name="ASEAN"/>
+                <edittype labelontop="0" editable="1" type="0" name="Agadir"/>
+                <edittype labelontop="0" editable="1" type="0" name="AndyID"/>
+                <edittype labelontop="0" editable="1" type="0" name="CACM"/>
+                <edittype labelontop="0" editable="1" type="0" name="CAN"/>
+                <edittype labelontop="0" editable="1" type="0" name="CARICOM"/>
+                <edittype labelontop="0" editable="1" type="0" name="CEEAC"/>
+                <edittype labelontop="0" editable="1" type="0" name="CEMAC"/>
+                <edittype labelontop="0" editable="1" type="0" name="CEPLG"/>
+                <edittype labelontop="0" editable="1" type="0" name="CIS"/>
+                <edittype labelontop="0" editable="1" type="0" name="COMESA"/>
+                <edittype labelontop="0" editable="1" type="0" name="CONTAINS"/>
+                <edittype labelontop="0" editable="1" type="0" name="CSN"/>
+                <edittype labelontop="0" editable="1" type="0" name="DEVELOPING"/>
+                <edittype labelontop="0" editable="1" type="0" name="EAC"/>
+                <edittype labelontop="0" editable="1" type="0" name="ECOWAS"/>
+                <edittype labelontop="0" editable="1" type="0" name="EU"/>
+                <edittype labelontop="0" editable="1" type="0" name="EurAsEC"/>
+                <edittype labelontop="0" editable="1" type="0" name="FIPS"/>
+                <edittype labelontop="0" editable="1" type="0" name="GADMID"/>
+                <edittype labelontop="0" editable="1" type="0" name="GCC"/>
+                <edittype labelontop="0" editable="1" type="0" name="IGAD"/>
+                <edittype labelontop="0" editable="1" type="0" name="IOC"/>
+                <edittype labelontop="0" editable="1" type="0" name="ISO"/>
+                <edittype labelontop="0" editable="1" type="0" name="ISO2"/>
+                <edittype labelontop="0" editable="1" type="0" name="ISON"/>
+                <edittype labelontop="0" editable="1" type="0" name="Islands"/>
+                <edittype labelontop="0" editable="1" type="0" name="LDC"/>
+                <edittype labelontop="0" editable="1" type="0" name="Landlocked"/>
+                <edittype labelontop="0" editable="1" type="0" name="MRU"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAFTA"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_ARABI"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_CHINE"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_ENGLI"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_FAO"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_FRENC"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_ISO"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_LOCAL"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_NONLA"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_OBSOL"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_RUSSI"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_SPANI"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_VARIA"/>
+                <edittype labelontop="0" editable="1" type="0" name="OECD"/>
+                <edittype labelontop="0" editable="1" type="0" name="PALOP"/>
+                <edittype labelontop="0" editable="1" type="0" name="PARTA"/>
+                <edittype labelontop="0" editable="1" type="0" name="POP2000"/>
+                <edittype labelontop="0" editable="1" type="0" name="POPSQKM"/>
+                <edittype labelontop="0" editable="1" type="0" name="SAARC"/>
+                <edittype labelontop="0" editable="1" type="0" name="SACU"/>
+                <edittype labelontop="0" editable="1" type="0" name="SIDS"/>
+                <edittype labelontop="0" editable="1" type="0" name="SOVEREIGN"/>
+                <edittype labelontop="0" editable="1" type="0" name="SQKM"/>
+                <edittype labelontop="0" editable="1" type="0" name="Shape_Area"/>
+                <edittype labelontop="0" editable="1" type="0" name="Shape_Leng"/>
+                <edittype labelontop="0" editable="1" type="0" name="Transition"/>
+                <edittype labelontop="0" editable="1" type="0" name="UEMOA"/>
+                <edittype labelontop="0" editable="1" type="0" name="UMA"/>
+                <edittype labelontop="0" editable="1" type="0" name="UNREGION1"/>
+                <edittype labelontop="0" editable="1" type="0" name="UNREGION2"/>
+                <edittype labelontop="0" editable="1" type="0" name="VALIDFR"/>
+                <edittype labelontop="0" editable="1" type="0" name="VALIDTO"/>
+                <edittype labelontop="0" editable="1" type="0" name="WASPARTOF"/>
+                <edittype labelontop="0" editable="1" type="0" name="WBDEBT"/>
+                <edittype labelontop="0" editable="1" type="0" name="WBINCOME"/>
+                <edittype labelontop="0" editable="1" type="0" name="WBOTHER"/>
+                <edittype labelontop="0" editable="1" type="0" name="WBREGION"/>
+                <edittype labelontop="0" editable="1" type="0" name="WWW"/>
+            </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <editorlayout>generatedlayout</editorlayout>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+            <id>BEL_adm0_laea20151206164033106</id>
+            <datasource>../background/countries/BEL_adm0.laea.shp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>BEL_adm0.laea</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=laea +lat_0=55 +lon_0=20 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs</proj4>
+                    <srsid>100000</srsid>
+                    <srid>0</srid>
+                    <authid>USER:100000</authid>
+                    <description> * Generated CRS (+proj=laea +lat_0=55 +lon_0=20 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs)</description>
+                    <projectionacronym>laea</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <provider encoding="System">ogr</provider>
+            <previewExpression></previewExpression>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_unit" v="MM"/>
+                            <prop k="color" v="32,163,61,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="style" v="no"/>
+                            <prop k="style_border" v="dot"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field="" scalemethod="area"/>
+            </renderer-v2>
+            <customproperties>
+                <property key="labeling" value="pal"/>
+                <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
+                <property key="labeling/blendMode" value="0"/>
+                <property key="labeling/bufferBlendMode" value="0"/>
+                <property key="labeling/bufferColorA" value="255"/>
+                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorG" value="255"/>
+                <property key="labeling/bufferColorR" value="255"/>
+                <property key="labeling/bufferDraw" value="false"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/decimals" value="3"/>
+                <property key="labeling/displayAll" value="false"/>
+                <property key="labeling/dist" value="0"/>
+                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/enabled" value="false"/>
+                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/fontBold" value="false"/>
+                <property key="labeling/fontCapitals" value="0"/>
+                <property key="labeling/fontFamily" value="Cantarell"/>
+                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="false"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="11"/>
+                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontStrikeout" value="false"/>
+                <property key="labeling/fontUnderline" value="false"/>
+                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="false"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
+                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="2000"/>
+                <property key="labeling/mergeLines" value="false"/>
+                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value="Regular"/>
+                <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
+                <property key="labeling/placement" value="0"/>
+                <property key="labeling/placementFlags" value="0"/>
+                <property key="labeling/plussign" value="false"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+                <property key="labeling/priority" value="5"/>
+                <property key="labeling/quadOffset" value="4"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
+                <property key="labeling/scaleMax" value="10000000"/>
+                <property key="labeling/scaleMin" value="1"/>
+                <property key="labeling/scaleVisibility" value="false"/>
+                <property key="labeling/shadowBlendMode" value="6"/>
+                <property key="labeling/shadowColorB" value="0"/>
+                <property key="labeling/shadowColorG" value="0"/>
+                <property key="labeling/shadowColorR" value="0"/>
+                <property key="labeling/shadowDraw" value="false"/>
+                <property key="labeling/shadowOffsetAngle" value="135"/>
+                <property key="labeling/shadowOffsetDist" value="1"/>
+                <property key="labeling/shadowOffsetGlobal" value="true"/>
+                <property key="labeling/shadowOffsetUnits" value="1"/>
+                <property key="labeling/shadowRadius" value="1.5"/>
+                <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+                <property key="labeling/shadowRadiusUnits" value="1"/>
+                <property key="labeling/shadowScale" value="100"/>
+                <property key="labeling/shadowTransparency" value="30"/>
+                <property key="labeling/shadowUnder" value="0"/>
+                <property key="labeling/shapeBlendMode" value="0"/>
+                <property key="labeling/shapeBorderColorA" value="255"/>
+                <property key="labeling/shapeBorderColorB" value="128"/>
+                <property key="labeling/shapeBorderColorG" value="128"/>
+                <property key="labeling/shapeBorderColorR" value="128"/>
+                <property key="labeling/shapeBorderWidth" value="0"/>
+                <property key="labeling/shapeBorderWidthUnits" value="1"/>
+                <property key="labeling/shapeDraw" value="false"/>
+                <property key="labeling/shapeFillColorA" value="255"/>
+                <property key="labeling/shapeFillColorB" value="255"/>
+                <property key="labeling/shapeFillColorG" value="255"/>
+                <property key="labeling/shapeFillColorR" value="255"/>
+                <property key="labeling/shapeJoinStyle" value="64"/>
+                <property key="labeling/shapeOffsetUnits" value="1"/>
+                <property key="labeling/shapeOffsetX" value="0"/>
+                <property key="labeling/shapeOffsetY" value="0"/>
+                <property key="labeling/shapeRadiiUnits" value="1"/>
+                <property key="labeling/shapeRadiiX" value="0"/>
+                <property key="labeling/shapeRadiiY" value="0"/>
+                <property key="labeling/shapeRotation" value="0"/>
+                <property key="labeling/shapeRotationType" value="0"/>
+                <property key="labeling/shapeSVGFile" value=""/>
+                <property key="labeling/shapeSizeType" value="0"/>
+                <property key="labeling/shapeSizeUnits" value="1"/>
+                <property key="labeling/shapeSizeX" value="0"/>
+                <property key="labeling/shapeSizeY" value="0"/>
+                <property key="labeling/shapeTransparency" value="0"/>
+                <property key="labeling/shapeType" value="0"/>
+                <property key="labeling/textColorA" value="255"/>
+                <property key="labeling/textColorB" value="0"/>
+                <property key="labeling/textColorG" value="0"/>
+                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value=""/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+            </customproperties>
+            <blendMode>0</blendMode>
+            <featureBlendMode>0</featureBlendMode>
+            <layerTransparency>0</layerTransparency>
+            <displayfield>NAME_ENGLI</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Cantarell"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype labelontop="0" editable="1" type="0" name="ACP"/>
+                <edittype labelontop="0" editable="1" type="0" name="AOSIS"/>
+                <edittype labelontop="0" editable="1" type="0" name="ASEAN"/>
+                <edittype labelontop="0" editable="1" type="0" name="Agadir"/>
+                <edittype labelontop="0" editable="1" type="0" name="AndyID"/>
+                <edittype labelontop="0" editable="1" type="0" name="CACM"/>
+                <edittype labelontop="0" editable="1" type="0" name="CAN"/>
+                <edittype labelontop="0" editable="1" type="0" name="CARICOM"/>
+                <edittype labelontop="0" editable="1" type="0" name="CEEAC"/>
+                <edittype labelontop="0" editable="1" type="0" name="CEMAC"/>
+                <edittype labelontop="0" editable="1" type="0" name="CEPLG"/>
+                <edittype labelontop="0" editable="1" type="0" name="CIS"/>
+                <edittype labelontop="0" editable="1" type="0" name="COMESA"/>
+                <edittype labelontop="0" editable="1" type="0" name="CONTAINS"/>
+                <edittype labelontop="0" editable="1" type="0" name="CSN"/>
+                <edittype labelontop="0" editable="1" type="0" name="DEVELOPING"/>
+                <edittype labelontop="0" editable="1" type="0" name="EAC"/>
+                <edittype labelontop="0" editable="1" type="0" name="ECOWAS"/>
+                <edittype labelontop="0" editable="1" type="0" name="EU"/>
+                <edittype labelontop="0" editable="1" type="0" name="EurAsEC"/>
+                <edittype labelontop="0" editable="1" type="0" name="FIPS"/>
+                <edittype labelontop="0" editable="1" type="0" name="GADMID"/>
+                <edittype labelontop="0" editable="1" type="0" name="GCC"/>
+                <edittype labelontop="0" editable="1" type="0" name="IGAD"/>
+                <edittype labelontop="0" editable="1" type="0" name="IOC"/>
+                <edittype labelontop="0" editable="1" type="0" name="ISO"/>
+                <edittype labelontop="0" editable="1" type="0" name="ISO2"/>
+                <edittype labelontop="0" editable="1" type="0" name="ISON"/>
+                <edittype labelontop="0" editable="1" type="0" name="Islands"/>
+                <edittype labelontop="0" editable="1" type="0" name="LDC"/>
+                <edittype labelontop="0" editable="1" type="0" name="Landlocked"/>
+                <edittype labelontop="0" editable="1" type="0" name="MRU"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAFTA"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_ARABI"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_CHINE"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_ENGLI"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_FAO"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_FRENC"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_ISO"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_LOCAL"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_NONLA"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_OBSOL"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_RUSSI"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_SPANI"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_VARIA"/>
+                <edittype labelontop="0" editable="1" type="0" name="OECD"/>
+                <edittype labelontop="0" editable="1" type="0" name="PALOP"/>
+                <edittype labelontop="0" editable="1" type="0" name="PARTA"/>
+                <edittype labelontop="0" editable="1" type="0" name="POP2000"/>
+                <edittype labelontop="0" editable="1" type="0" name="POPSQKM"/>
+                <edittype labelontop="0" editable="1" type="0" name="SAARC"/>
+                <edittype labelontop="0" editable="1" type="0" name="SACU"/>
+                <edittype labelontop="0" editable="1" type="0" name="SIDS"/>
+                <edittype labelontop="0" editable="1" type="0" name="SOVEREIGN"/>
+                <edittype labelontop="0" editable="1" type="0" name="SQKM"/>
+                <edittype labelontop="0" editable="1" type="0" name="Shape_Area"/>
+                <edittype labelontop="0" editable="1" type="0" name="Shape_Leng"/>
+                <edittype labelontop="0" editable="1" type="0" name="Transition"/>
+                <edittype labelontop="0" editable="1" type="0" name="UEMOA"/>
+                <edittype labelontop="0" editable="1" type="0" name="UMA"/>
+                <edittype labelontop="0" editable="1" type="0" name="UNREGION1"/>
+                <edittype labelontop="0" editable="1" type="0" name="UNREGION2"/>
+                <edittype labelontop="0" editable="1" type="0" name="VALIDFR"/>
+                <edittype labelontop="0" editable="1" type="0" name="VALIDTO"/>
+                <edittype labelontop="0" editable="1" type="0" name="WASPARTOF"/>
+                <edittype labelontop="0" editable="1" type="0" name="WBDEBT"/>
+                <edittype labelontop="0" editable="1" type="0" name="WBINCOME"/>
+                <edittype labelontop="0" editable="1" type="0" name="WBOTHER"/>
+                <edittype labelontop="0" editable="1" type="0" name="WBREGION"/>
+                <edittype labelontop="0" editable="1" type="0" name="WWW"/>
+            </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <editorlayout>generatedlayout</editorlayout>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+            <id>CHE_adm0_laea20151206164033172</id>
+            <datasource>../background/countries/CHE_adm0.laea.shp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>CHE_adm0.laea</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=laea +lat_0=55 +lon_0=20 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs</proj4>
+                    <srsid>100000</srsid>
+                    <srid>0</srid>
+                    <authid>USER:100000</authid>
+                    <description> * Generated CRS (+proj=laea +lat_0=55 +lon_0=20 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs)</description>
+                    <projectionacronym>laea</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <provider encoding="System">ogr</provider>
+            <previewExpression></previewExpression>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_unit" v="MM"/>
+                            <prop k="color" v="32,163,61,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="style" v="no"/>
+                            <prop k="style_border" v="dot"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field="" scalemethod="area"/>
+            </renderer-v2>
+            <customproperties>
+                <property key="labeling" value="pal"/>
+                <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
+                <property key="labeling/blendMode" value="0"/>
+                <property key="labeling/bufferBlendMode" value="0"/>
+                <property key="labeling/bufferColorA" value="255"/>
+                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorG" value="255"/>
+                <property key="labeling/bufferColorR" value="255"/>
+                <property key="labeling/bufferDraw" value="false"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/decimals" value="3"/>
+                <property key="labeling/displayAll" value="false"/>
+                <property key="labeling/dist" value="0"/>
+                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/enabled" value="false"/>
+                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/fontBold" value="false"/>
+                <property key="labeling/fontCapitals" value="0"/>
+                <property key="labeling/fontFamily" value="Cantarell"/>
+                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="false"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="11"/>
+                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontStrikeout" value="false"/>
+                <property key="labeling/fontUnderline" value="false"/>
+                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="false"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
+                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="2000"/>
+                <property key="labeling/mergeLines" value="false"/>
+                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value="Regular"/>
+                <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
+                <property key="labeling/placement" value="0"/>
+                <property key="labeling/placementFlags" value="0"/>
+                <property key="labeling/plussign" value="false"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+                <property key="labeling/priority" value="5"/>
+                <property key="labeling/quadOffset" value="4"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
+                <property key="labeling/scaleMax" value="10000000"/>
+                <property key="labeling/scaleMin" value="1"/>
+                <property key="labeling/scaleVisibility" value="false"/>
+                <property key="labeling/shadowBlendMode" value="6"/>
+                <property key="labeling/shadowColorB" value="0"/>
+                <property key="labeling/shadowColorG" value="0"/>
+                <property key="labeling/shadowColorR" value="0"/>
+                <property key="labeling/shadowDraw" value="false"/>
+                <property key="labeling/shadowOffsetAngle" value="135"/>
+                <property key="labeling/shadowOffsetDist" value="1"/>
+                <property key="labeling/shadowOffsetGlobal" value="true"/>
+                <property key="labeling/shadowOffsetUnits" value="1"/>
+                <property key="labeling/shadowRadius" value="1.5"/>
+                <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+                <property key="labeling/shadowRadiusUnits" value="1"/>
+                <property key="labeling/shadowScale" value="100"/>
+                <property key="labeling/shadowTransparency" value="30"/>
+                <property key="labeling/shadowUnder" value="0"/>
+                <property key="labeling/shapeBlendMode" value="0"/>
+                <property key="labeling/shapeBorderColorA" value="255"/>
+                <property key="labeling/shapeBorderColorB" value="128"/>
+                <property key="labeling/shapeBorderColorG" value="128"/>
+                <property key="labeling/shapeBorderColorR" value="128"/>
+                <property key="labeling/shapeBorderWidth" value="0"/>
+                <property key="labeling/shapeBorderWidthUnits" value="1"/>
+                <property key="labeling/shapeDraw" value="false"/>
+                <property key="labeling/shapeFillColorA" value="255"/>
+                <property key="labeling/shapeFillColorB" value="255"/>
+                <property key="labeling/shapeFillColorG" value="255"/>
+                <property key="labeling/shapeFillColorR" value="255"/>
+                <property key="labeling/shapeJoinStyle" value="64"/>
+                <property key="labeling/shapeOffsetUnits" value="1"/>
+                <property key="labeling/shapeOffsetX" value="0"/>
+                <property key="labeling/shapeOffsetY" value="0"/>
+                <property key="labeling/shapeRadiiUnits" value="1"/>
+                <property key="labeling/shapeRadiiX" value="0"/>
+                <property key="labeling/shapeRadiiY" value="0"/>
+                <property key="labeling/shapeRotation" value="0"/>
+                <property key="labeling/shapeRotationType" value="0"/>
+                <property key="labeling/shapeSVGFile" value=""/>
+                <property key="labeling/shapeSizeType" value="0"/>
+                <property key="labeling/shapeSizeUnits" value="1"/>
+                <property key="labeling/shapeSizeX" value="0"/>
+                <property key="labeling/shapeSizeY" value="0"/>
+                <property key="labeling/shapeTransparency" value="0"/>
+                <property key="labeling/shapeType" value="0"/>
+                <property key="labeling/textColorA" value="255"/>
+                <property key="labeling/textColorB" value="0"/>
+                <property key="labeling/textColorG" value="0"/>
+                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value=""/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+            </customproperties>
+            <blendMode>0</blendMode>
+            <featureBlendMode>0</featureBlendMode>
+            <layerTransparency>0</layerTransparency>
+            <displayfield>NAME_ENGLI</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Cantarell"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype labelontop="0" editable="1" type="0" name="ACP"/>
+                <edittype labelontop="0" editable="1" type="0" name="AOSIS"/>
+                <edittype labelontop="0" editable="1" type="0" name="ASEAN"/>
+                <edittype labelontop="0" editable="1" type="0" name="Agadir"/>
+                <edittype labelontop="0" editable="1" type="0" name="AndyID"/>
+                <edittype labelontop="0" editable="1" type="0" name="CACM"/>
+                <edittype labelontop="0" editable="1" type="0" name="CAN"/>
+                <edittype labelontop="0" editable="1" type="0" name="CARICOM"/>
+                <edittype labelontop="0" editable="1" type="0" name="CEEAC"/>
+                <edittype labelontop="0" editable="1" type="0" name="CEMAC"/>
+                <edittype labelontop="0" editable="1" type="0" name="CEPLG"/>
+                <edittype labelontop="0" editable="1" type="0" name="CIS"/>
+                <edittype labelontop="0" editable="1" type="0" name="COMESA"/>
+                <edittype labelontop="0" editable="1" type="0" name="CONTAINS"/>
+                <edittype labelontop="0" editable="1" type="0" name="CSN"/>
+                <edittype labelontop="0" editable="1" type="0" name="DEVELOPING"/>
+                <edittype labelontop="0" editable="1" type="0" name="EAC"/>
+                <edittype labelontop="0" editable="1" type="0" name="ECOWAS"/>
+                <edittype labelontop="0" editable="1" type="0" name="EU"/>
+                <edittype labelontop="0" editable="1" type="0" name="EurAsEC"/>
+                <edittype labelontop="0" editable="1" type="0" name="FIPS"/>
+                <edittype labelontop="0" editable="1" type="0" name="GADMID"/>
+                <edittype labelontop="0" editable="1" type="0" name="GCC"/>
+                <edittype labelontop="0" editable="1" type="0" name="IGAD"/>
+                <edittype labelontop="0" editable="1" type="0" name="IOC"/>
+                <edittype labelontop="0" editable="1" type="0" name="ISO"/>
+                <edittype labelontop="0" editable="1" type="0" name="ISO2"/>
+                <edittype labelontop="0" editable="1" type="0" name="ISON"/>
+                <edittype labelontop="0" editable="1" type="0" name="Islands"/>
+                <edittype labelontop="0" editable="1" type="0" name="LDC"/>
+                <edittype labelontop="0" editable="1" type="0" name="Landlocked"/>
+                <edittype labelontop="0" editable="1" type="0" name="MRU"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAFTA"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_ARABI"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_CHINE"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_ENGLI"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_FAO"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_FRENC"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_ISO"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_LOCAL"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_NONLA"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_OBSOL"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_RUSSI"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_SPANI"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_VARIA"/>
+                <edittype labelontop="0" editable="1" type="0" name="OECD"/>
+                <edittype labelontop="0" editable="1" type="0" name="PALOP"/>
+                <edittype labelontop="0" editable="1" type="0" name="PARTA"/>
+                <edittype labelontop="0" editable="1" type="0" name="POP2000"/>
+                <edittype labelontop="0" editable="1" type="0" name="POPSQKM"/>
+                <edittype labelontop="0" editable="1" type="0" name="SAARC"/>
+                <edittype labelontop="0" editable="1" type="0" name="SACU"/>
+                <edittype labelontop="0" editable="1" type="0" name="SIDS"/>
+                <edittype labelontop="0" editable="1" type="0" name="SOVEREIGN"/>
+                <edittype labelontop="0" editable="1" type="0" name="SQKM"/>
+                <edittype labelontop="0" editable="1" type="0" name="Shape_Area"/>
+                <edittype labelontop="0" editable="1" type="0" name="Shape_Leng"/>
+                <edittype labelontop="0" editable="1" type="0" name="Transition"/>
+                <edittype labelontop="0" editable="1" type="0" name="UEMOA"/>
+                <edittype labelontop="0" editable="1" type="0" name="UMA"/>
+                <edittype labelontop="0" editable="1" type="0" name="UNREGION1"/>
+                <edittype labelontop="0" editable="1" type="0" name="UNREGION2"/>
+                <edittype labelontop="0" editable="1" type="0" name="VALIDFR"/>
+                <edittype labelontop="0" editable="1" type="0" name="VALIDTO"/>
+                <edittype labelontop="0" editable="1" type="0" name="WASPARTOF"/>
+                <edittype labelontop="0" editable="1" type="0" name="WBDEBT"/>
+                <edittype labelontop="0" editable="1" type="0" name="WBINCOME"/>
+                <edittype labelontop="0" editable="1" type="0" name="WBOTHER"/>
+                <edittype labelontop="0" editable="1" type="0" name="WBREGION"/>
+                <edittype labelontop="0" editable="1" type="0" name="WWW"/>
+            </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <editorlayout>generatedlayout</editorlayout>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+            <id>DEU_adm0_laea20151206164033243</id>
+            <datasource>../background/countries/DEU_adm0.laea.shp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>DEU_adm0.laea</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=laea +lat_0=55 +lon_0=20 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs</proj4>
+                    <srsid>100000</srsid>
+                    <srid>0</srid>
+                    <authid>USER:100000</authid>
+                    <description> * Generated CRS (+proj=laea +lat_0=55 +lon_0=20 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs)</description>
+                    <projectionacronym>laea</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <provider encoding="System">ogr</provider>
+            <previewExpression></previewExpression>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_unit" v="MM"/>
+                            <prop k="color" v="32,163,61,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="style" v="no"/>
+                            <prop k="style_border" v="dot"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field="" scalemethod="area"/>
+            </renderer-v2>
+            <customproperties>
+                <property key="labeling" value="pal"/>
+                <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
+                <property key="labeling/blendMode" value="0"/>
+                <property key="labeling/bufferBlendMode" value="0"/>
+                <property key="labeling/bufferColorA" value="255"/>
+                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorG" value="255"/>
+                <property key="labeling/bufferColorR" value="255"/>
+                <property key="labeling/bufferDraw" value="false"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/decimals" value="3"/>
+                <property key="labeling/displayAll" value="false"/>
+                <property key="labeling/dist" value="0"/>
+                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/enabled" value="false"/>
+                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/fontBold" value="false"/>
+                <property key="labeling/fontCapitals" value="0"/>
+                <property key="labeling/fontFamily" value="Cantarell"/>
+                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="false"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="11"/>
+                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontStrikeout" value="false"/>
+                <property key="labeling/fontUnderline" value="false"/>
+                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="false"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
+                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="2000"/>
+                <property key="labeling/mergeLines" value="false"/>
+                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value="Regular"/>
+                <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
+                <property key="labeling/placement" value="0"/>
+                <property key="labeling/placementFlags" value="0"/>
+                <property key="labeling/plussign" value="false"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+                <property key="labeling/priority" value="5"/>
+                <property key="labeling/quadOffset" value="4"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
+                <property key="labeling/scaleMax" value="10000000"/>
+                <property key="labeling/scaleMin" value="1"/>
+                <property key="labeling/scaleVisibility" value="false"/>
+                <property key="labeling/shadowBlendMode" value="6"/>
+                <property key="labeling/shadowColorB" value="0"/>
+                <property key="labeling/shadowColorG" value="0"/>
+                <property key="labeling/shadowColorR" value="0"/>
+                <property key="labeling/shadowDraw" value="false"/>
+                <property key="labeling/shadowOffsetAngle" value="135"/>
+                <property key="labeling/shadowOffsetDist" value="1"/>
+                <property key="labeling/shadowOffsetGlobal" value="true"/>
+                <property key="labeling/shadowOffsetUnits" value="1"/>
+                <property key="labeling/shadowRadius" value="1.5"/>
+                <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+                <property key="labeling/shadowRadiusUnits" value="1"/>
+                <property key="labeling/shadowScale" value="100"/>
+                <property key="labeling/shadowTransparency" value="30"/>
+                <property key="labeling/shadowUnder" value="0"/>
+                <property key="labeling/shapeBlendMode" value="0"/>
+                <property key="labeling/shapeBorderColorA" value="255"/>
+                <property key="labeling/shapeBorderColorB" value="128"/>
+                <property key="labeling/shapeBorderColorG" value="128"/>
+                <property key="labeling/shapeBorderColorR" value="128"/>
+                <property key="labeling/shapeBorderWidth" value="0"/>
+                <property key="labeling/shapeBorderWidthUnits" value="1"/>
+                <property key="labeling/shapeDraw" value="false"/>
+                <property key="labeling/shapeFillColorA" value="255"/>
+                <property key="labeling/shapeFillColorB" value="255"/>
+                <property key="labeling/shapeFillColorG" value="255"/>
+                <property key="labeling/shapeFillColorR" value="255"/>
+                <property key="labeling/shapeJoinStyle" value="64"/>
+                <property key="labeling/shapeOffsetUnits" value="1"/>
+                <property key="labeling/shapeOffsetX" value="0"/>
+                <property key="labeling/shapeOffsetY" value="0"/>
+                <property key="labeling/shapeRadiiUnits" value="1"/>
+                <property key="labeling/shapeRadiiX" value="0"/>
+                <property key="labeling/shapeRadiiY" value="0"/>
+                <property key="labeling/shapeRotation" value="0"/>
+                <property key="labeling/shapeRotationType" value="0"/>
+                <property key="labeling/shapeSVGFile" value=""/>
+                <property key="labeling/shapeSizeType" value="0"/>
+                <property key="labeling/shapeSizeUnits" value="1"/>
+                <property key="labeling/shapeSizeX" value="0"/>
+                <property key="labeling/shapeSizeY" value="0"/>
+                <property key="labeling/shapeTransparency" value="0"/>
+                <property key="labeling/shapeType" value="0"/>
+                <property key="labeling/textColorA" value="255"/>
+                <property key="labeling/textColorB" value="0"/>
+                <property key="labeling/textColorG" value="0"/>
+                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value=""/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+            </customproperties>
+            <blendMode>0</blendMode>
+            <featureBlendMode>0</featureBlendMode>
+            <layerTransparency>0</layerTransparency>
+            <displayfield>NAME_ENGLI</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Cantarell"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype labelontop="0" editable="1" type="0" name="ACP"/>
+                <edittype labelontop="0" editable="1" type="0" name="AOSIS"/>
+                <edittype labelontop="0" editable="1" type="0" name="ASEAN"/>
+                <edittype labelontop="0" editable="1" type="0" name="Agadir"/>
+                <edittype labelontop="0" editable="1" type="0" name="AndyID"/>
+                <edittype labelontop="0" editable="1" type="0" name="CACM"/>
+                <edittype labelontop="0" editable="1" type="0" name="CAN"/>
+                <edittype labelontop="0" editable="1" type="0" name="CARICOM"/>
+                <edittype labelontop="0" editable="1" type="0" name="CEEAC"/>
+                <edittype labelontop="0" editable="1" type="0" name="CEMAC"/>
+                <edittype labelontop="0" editable="1" type="0" name="CEPLG"/>
+                <edittype labelontop="0" editable="1" type="0" name="CIS"/>
+                <edittype labelontop="0" editable="1" type="0" name="COMESA"/>
+                <edittype labelontop="0" editable="1" type="0" name="CONTAINS"/>
+                <edittype labelontop="0" editable="1" type="0" name="CSN"/>
+                <edittype labelontop="0" editable="1" type="0" name="DEVELOPING"/>
+                <edittype labelontop="0" editable="1" type="0" name="EAC"/>
+                <edittype labelontop="0" editable="1" type="0" name="ECOWAS"/>
+                <edittype labelontop="0" editable="1" type="0" name="EU"/>
+                <edittype labelontop="0" editable="1" type="0" name="EurAsEC"/>
+                <edittype labelontop="0" editable="1" type="0" name="FIPS"/>
+                <edittype labelontop="0" editable="1" type="0" name="GADMID"/>
+                <edittype labelontop="0" editable="1" type="0" name="GCC"/>
+                <edittype labelontop="0" editable="1" type="0" name="IGAD"/>
+                <edittype labelontop="0" editable="1" type="0" name="IOC"/>
+                <edittype labelontop="0" editable="1" type="0" name="ISO"/>
+                <edittype labelontop="0" editable="1" type="0" name="ISO2"/>
+                <edittype labelontop="0" editable="1" type="0" name="ISON"/>
+                <edittype labelontop="0" editable="1" type="0" name="Islands"/>
+                <edittype labelontop="0" editable="1" type="0" name="LDC"/>
+                <edittype labelontop="0" editable="1" type="0" name="Landlocked"/>
+                <edittype labelontop="0" editable="1" type="0" name="MRU"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAFTA"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_ARABI"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_CHINE"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_ENGLI"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_FAO"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_FRENC"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_ISO"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_LOCAL"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_NONLA"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_OBSOL"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_RUSSI"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_SPANI"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_VARIA"/>
+                <edittype labelontop="0" editable="1" type="0" name="OECD"/>
+                <edittype labelontop="0" editable="1" type="0" name="PALOP"/>
+                <edittype labelontop="0" editable="1" type="0" name="PARTA"/>
+                <edittype labelontop="0" editable="1" type="0" name="POP2000"/>
+                <edittype labelontop="0" editable="1" type="0" name="POPSQKM"/>
+                <edittype labelontop="0" editable="1" type="0" name="SAARC"/>
+                <edittype labelontop="0" editable="1" type="0" name="SACU"/>
+                <edittype labelontop="0" editable="1" type="0" name="SIDS"/>
+                <edittype labelontop="0" editable="1" type="0" name="SOVEREIGN"/>
+                <edittype labelontop="0" editable="1" type="0" name="SQKM"/>
+                <edittype labelontop="0" editable="1" type="0" name="Shape_Area"/>
+                <edittype labelontop="0" editable="1" type="0" name="Shape_Leng"/>
+                <edittype labelontop="0" editable="1" type="0" name="Transition"/>
+                <edittype labelontop="0" editable="1" type="0" name="UEMOA"/>
+                <edittype labelontop="0" editable="1" type="0" name="UMA"/>
+                <edittype labelontop="0" editable="1" type="0" name="UNREGION1"/>
+                <edittype labelontop="0" editable="1" type="0" name="UNREGION2"/>
+                <edittype labelontop="0" editable="1" type="0" name="VALIDFR"/>
+                <edittype labelontop="0" editable="1" type="0" name="VALIDTO"/>
+                <edittype labelontop="0" editable="1" type="0" name="WASPARTOF"/>
+                <edittype labelontop="0" editable="1" type="0" name="WBDEBT"/>
+                <edittype labelontop="0" editable="1" type="0" name="WBINCOME"/>
+                <edittype labelontop="0" editable="1" type="0" name="WBOTHER"/>
+                <edittype labelontop="0" editable="1" type="0" name="WBREGION"/>
+                <edittype labelontop="0" editable="1" type="0" name="WWW"/>
+            </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <editorlayout>generatedlayout</editorlayout>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+            <id>FRA_adm0_laea20151206164033308</id>
+            <datasource>../background/countries/FRA_adm0.laea.shp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>FRA_adm0.laea</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=laea +lat_0=55 +lon_0=20 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs</proj4>
+                    <srsid>100000</srsid>
+                    <srid>0</srid>
+                    <authid>USER:100000</authid>
+                    <description> * Generated CRS (+proj=laea +lat_0=55 +lon_0=20 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs)</description>
+                    <projectionacronym>laea</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <provider encoding="System">ogr</provider>
+            <previewExpression></previewExpression>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_unit" v="MM"/>
+                            <prop k="color" v="32,163,61,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="style" v="no"/>
+                            <prop k="style_border" v="dot"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field="" scalemethod="area"/>
+            </renderer-v2>
+            <customproperties>
+                <property key="labeling" value="pal"/>
+                <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
+                <property key="labeling/blendMode" value="0"/>
+                <property key="labeling/bufferBlendMode" value="0"/>
+                <property key="labeling/bufferColorA" value="255"/>
+                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorG" value="255"/>
+                <property key="labeling/bufferColorR" value="255"/>
+                <property key="labeling/bufferDraw" value="false"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/decimals" value="3"/>
+                <property key="labeling/displayAll" value="false"/>
+                <property key="labeling/dist" value="0"/>
+                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/enabled" value="false"/>
+                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/fontBold" value="false"/>
+                <property key="labeling/fontCapitals" value="0"/>
+                <property key="labeling/fontFamily" value="Cantarell"/>
+                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="false"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="11"/>
+                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontStrikeout" value="false"/>
+                <property key="labeling/fontUnderline" value="false"/>
+                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="false"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
+                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="2000"/>
+                <property key="labeling/mergeLines" value="false"/>
+                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value="Regular"/>
+                <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
+                <property key="labeling/placement" value="0"/>
+                <property key="labeling/placementFlags" value="0"/>
+                <property key="labeling/plussign" value="false"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+                <property key="labeling/priority" value="5"/>
+                <property key="labeling/quadOffset" value="4"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
+                <property key="labeling/scaleMax" value="10000000"/>
+                <property key="labeling/scaleMin" value="1"/>
+                <property key="labeling/scaleVisibility" value="false"/>
+                <property key="labeling/shadowBlendMode" value="6"/>
+                <property key="labeling/shadowColorB" value="0"/>
+                <property key="labeling/shadowColorG" value="0"/>
+                <property key="labeling/shadowColorR" value="0"/>
+                <property key="labeling/shadowDraw" value="false"/>
+                <property key="labeling/shadowOffsetAngle" value="135"/>
+                <property key="labeling/shadowOffsetDist" value="1"/>
+                <property key="labeling/shadowOffsetGlobal" value="true"/>
+                <property key="labeling/shadowOffsetUnits" value="1"/>
+                <property key="labeling/shadowRadius" value="1.5"/>
+                <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+                <property key="labeling/shadowRadiusUnits" value="1"/>
+                <property key="labeling/shadowScale" value="100"/>
+                <property key="labeling/shadowTransparency" value="30"/>
+                <property key="labeling/shadowUnder" value="0"/>
+                <property key="labeling/shapeBlendMode" value="0"/>
+                <property key="labeling/shapeBorderColorA" value="255"/>
+                <property key="labeling/shapeBorderColorB" value="128"/>
+                <property key="labeling/shapeBorderColorG" value="128"/>
+                <property key="labeling/shapeBorderColorR" value="128"/>
+                <property key="labeling/shapeBorderWidth" value="0"/>
+                <property key="labeling/shapeBorderWidthUnits" value="1"/>
+                <property key="labeling/shapeDraw" value="false"/>
+                <property key="labeling/shapeFillColorA" value="255"/>
+                <property key="labeling/shapeFillColorB" value="255"/>
+                <property key="labeling/shapeFillColorG" value="255"/>
+                <property key="labeling/shapeFillColorR" value="255"/>
+                <property key="labeling/shapeJoinStyle" value="64"/>
+                <property key="labeling/shapeOffsetUnits" value="1"/>
+                <property key="labeling/shapeOffsetX" value="0"/>
+                <property key="labeling/shapeOffsetY" value="0"/>
+                <property key="labeling/shapeRadiiUnits" value="1"/>
+                <property key="labeling/shapeRadiiX" value="0"/>
+                <property key="labeling/shapeRadiiY" value="0"/>
+                <property key="labeling/shapeRotation" value="0"/>
+                <property key="labeling/shapeRotationType" value="0"/>
+                <property key="labeling/shapeSVGFile" value=""/>
+                <property key="labeling/shapeSizeType" value="0"/>
+                <property key="labeling/shapeSizeUnits" value="1"/>
+                <property key="labeling/shapeSizeX" value="0"/>
+                <property key="labeling/shapeSizeY" value="0"/>
+                <property key="labeling/shapeTransparency" value="0"/>
+                <property key="labeling/shapeType" value="0"/>
+                <property key="labeling/textColorA" value="255"/>
+                <property key="labeling/textColorB" value="0"/>
+                <property key="labeling/textColorG" value="0"/>
+                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value=""/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+            </customproperties>
+            <blendMode>0</blendMode>
+            <featureBlendMode>0</featureBlendMode>
+            <layerTransparency>0</layerTransparency>
+            <displayfield>NAME_ENGLI</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Cantarell"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype labelontop="0" editable="1" type="0" name="ACP"/>
+                <edittype labelontop="0" editable="1" type="0" name="AOSIS"/>
+                <edittype labelontop="0" editable="1" type="0" name="ASEAN"/>
+                <edittype labelontop="0" editable="1" type="0" name="Agadir"/>
+                <edittype labelontop="0" editable="1" type="0" name="AndyID"/>
+                <edittype labelontop="0" editable="1" type="0" name="CACM"/>
+                <edittype labelontop="0" editable="1" type="0" name="CAN"/>
+                <edittype labelontop="0" editable="1" type="0" name="CARICOM"/>
+                <edittype labelontop="0" editable="1" type="0" name="CEEAC"/>
+                <edittype labelontop="0" editable="1" type="0" name="CEMAC"/>
+                <edittype labelontop="0" editable="1" type="0" name="CEPLG"/>
+                <edittype labelontop="0" editable="1" type="0" name="CIS"/>
+                <edittype labelontop="0" editable="1" type="0" name="COMESA"/>
+                <edittype labelontop="0" editable="1" type="0" name="CONTAINS"/>
+                <edittype labelontop="0" editable="1" type="0" name="CSN"/>
+                <edittype labelontop="0" editable="1" type="0" name="DEVELOPING"/>
+                <edittype labelontop="0" editable="1" type="0" name="EAC"/>
+                <edittype labelontop="0" editable="1" type="0" name="ECOWAS"/>
+                <edittype labelontop="0" editable="1" type="0" name="EU"/>
+                <edittype labelontop="0" editable="1" type="0" name="EurAsEC"/>
+                <edittype labelontop="0" editable="1" type="0" name="FIPS"/>
+                <edittype labelontop="0" editable="1" type="0" name="GADMID"/>
+                <edittype labelontop="0" editable="1" type="0" name="GCC"/>
+                <edittype labelontop="0" editable="1" type="0" name="IGAD"/>
+                <edittype labelontop="0" editable="1" type="0" name="IOC"/>
+                <edittype labelontop="0" editable="1" type="0" name="ISO"/>
+                <edittype labelontop="0" editable="1" type="0" name="ISO2"/>
+                <edittype labelontop="0" editable="1" type="0" name="ISON"/>
+                <edittype labelontop="0" editable="1" type="0" name="Islands"/>
+                <edittype labelontop="0" editable="1" type="0" name="LDC"/>
+                <edittype labelontop="0" editable="1" type="0" name="Landlocked"/>
+                <edittype labelontop="0" editable="1" type="0" name="MRU"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAFTA"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_ARABI"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_CHINE"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_ENGLI"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_FAO"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_FRENC"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_ISO"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_LOCAL"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_NONLA"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_OBSOL"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_RUSSI"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_SPANI"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_VARIA"/>
+                <edittype labelontop="0" editable="1" type="0" name="OECD"/>
+                <edittype labelontop="0" editable="1" type="0" name="PALOP"/>
+                <edittype labelontop="0" editable="1" type="0" name="PARTA"/>
+                <edittype labelontop="0" editable="1" type="0" name="POP2000"/>
+                <edittype labelontop="0" editable="1" type="0" name="POPSQKM"/>
+                <edittype labelontop="0" editable="1" type="0" name="SAARC"/>
+                <edittype labelontop="0" editable="1" type="0" name="SACU"/>
+                <edittype labelontop="0" editable="1" type="0" name="SIDS"/>
+                <edittype labelontop="0" editable="1" type="0" name="SOVEREIGN"/>
+                <edittype labelontop="0" editable="1" type="0" name="SQKM"/>
+                <edittype labelontop="0" editable="1" type="0" name="Shape_Area"/>
+                <edittype labelontop="0" editable="1" type="0" name="Shape_Leng"/>
+                <edittype labelontop="0" editable="1" type="0" name="Transition"/>
+                <edittype labelontop="0" editable="1" type="0" name="UEMOA"/>
+                <edittype labelontop="0" editable="1" type="0" name="UMA"/>
+                <edittype labelontop="0" editable="1" type="0" name="UNREGION1"/>
+                <edittype labelontop="0" editable="1" type="0" name="UNREGION2"/>
+                <edittype labelontop="0" editable="1" type="0" name="VALIDFR"/>
+                <edittype labelontop="0" editable="1" type="0" name="VALIDTO"/>
+                <edittype labelontop="0" editable="1" type="0" name="WASPARTOF"/>
+                <edittype labelontop="0" editable="1" type="0" name="WBDEBT"/>
+                <edittype labelontop="0" editable="1" type="0" name="WBINCOME"/>
+                <edittype labelontop="0" editable="1" type="0" name="WBOTHER"/>
+                <edittype labelontop="0" editable="1" type="0" name="WBREGION"/>
+                <edittype labelontop="0" editable="1" type="0" name="WWW"/>
+            </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <editorlayout>generatedlayout</editorlayout>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+            <id>LUX_adm0_laea20151206164033376</id>
+            <datasource>../background/countries/LUX_adm0.laea.shp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>LUX_adm0.laea</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=laea +lat_0=55 +lon_0=20 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs</proj4>
+                    <srsid>100000</srsid>
+                    <srid>0</srid>
+                    <authid>USER:100000</authid>
+                    <description> * Generated CRS (+proj=laea +lat_0=55 +lon_0=20 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs)</description>
+                    <projectionacronym>laea</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <provider encoding="System">ogr</provider>
+            <previewExpression></previewExpression>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_unit" v="MM"/>
+                            <prop k="color" v="32,163,61,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="style" v="no"/>
+                            <prop k="style_border" v="dot"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field="" scalemethod="area"/>
+            </renderer-v2>
+            <customproperties>
+                <property key="labeling" value="pal"/>
+                <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
+                <property key="labeling/blendMode" value="0"/>
+                <property key="labeling/bufferBlendMode" value="0"/>
+                <property key="labeling/bufferColorA" value="255"/>
+                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorG" value="255"/>
+                <property key="labeling/bufferColorR" value="255"/>
+                <property key="labeling/bufferDraw" value="false"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/decimals" value="3"/>
+                <property key="labeling/displayAll" value="false"/>
+                <property key="labeling/dist" value="0"/>
+                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/enabled" value="false"/>
+                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/fontBold" value="false"/>
+                <property key="labeling/fontCapitals" value="0"/>
+                <property key="labeling/fontFamily" value="Cantarell"/>
+                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="false"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="11"/>
+                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontStrikeout" value="false"/>
+                <property key="labeling/fontUnderline" value="false"/>
+                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="false"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
+                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="2000"/>
+                <property key="labeling/mergeLines" value="false"/>
+                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value="Regular"/>
+                <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
+                <property key="labeling/placement" value="0"/>
+                <property key="labeling/placementFlags" value="0"/>
+                <property key="labeling/plussign" value="false"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+                <property key="labeling/priority" value="5"/>
+                <property key="labeling/quadOffset" value="4"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
+                <property key="labeling/scaleMax" value="10000000"/>
+                <property key="labeling/scaleMin" value="1"/>
+                <property key="labeling/scaleVisibility" value="false"/>
+                <property key="labeling/shadowBlendMode" value="6"/>
+                <property key="labeling/shadowColorB" value="0"/>
+                <property key="labeling/shadowColorG" value="0"/>
+                <property key="labeling/shadowColorR" value="0"/>
+                <property key="labeling/shadowDraw" value="false"/>
+                <property key="labeling/shadowOffsetAngle" value="135"/>
+                <property key="labeling/shadowOffsetDist" value="1"/>
+                <property key="labeling/shadowOffsetGlobal" value="true"/>
+                <property key="labeling/shadowOffsetUnits" value="1"/>
+                <property key="labeling/shadowRadius" value="1.5"/>
+                <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+                <property key="labeling/shadowRadiusUnits" value="1"/>
+                <property key="labeling/shadowScale" value="100"/>
+                <property key="labeling/shadowTransparency" value="30"/>
+                <property key="labeling/shadowUnder" value="0"/>
+                <property key="labeling/shapeBlendMode" value="0"/>
+                <property key="labeling/shapeBorderColorA" value="255"/>
+                <property key="labeling/shapeBorderColorB" value="128"/>
+                <property key="labeling/shapeBorderColorG" value="128"/>
+                <property key="labeling/shapeBorderColorR" value="128"/>
+                <property key="labeling/shapeBorderWidth" value="0"/>
+                <property key="labeling/shapeBorderWidthUnits" value="1"/>
+                <property key="labeling/shapeDraw" value="false"/>
+                <property key="labeling/shapeFillColorA" value="255"/>
+                <property key="labeling/shapeFillColorB" value="255"/>
+                <property key="labeling/shapeFillColorG" value="255"/>
+                <property key="labeling/shapeFillColorR" value="255"/>
+                <property key="labeling/shapeJoinStyle" value="64"/>
+                <property key="labeling/shapeOffsetUnits" value="1"/>
+                <property key="labeling/shapeOffsetX" value="0"/>
+                <property key="labeling/shapeOffsetY" value="0"/>
+                <property key="labeling/shapeRadiiUnits" value="1"/>
+                <property key="labeling/shapeRadiiX" value="0"/>
+                <property key="labeling/shapeRadiiY" value="0"/>
+                <property key="labeling/shapeRotation" value="0"/>
+                <property key="labeling/shapeRotationType" value="0"/>
+                <property key="labeling/shapeSVGFile" value=""/>
+                <property key="labeling/shapeSizeType" value="0"/>
+                <property key="labeling/shapeSizeUnits" value="1"/>
+                <property key="labeling/shapeSizeX" value="0"/>
+                <property key="labeling/shapeSizeY" value="0"/>
+                <property key="labeling/shapeTransparency" value="0"/>
+                <property key="labeling/shapeType" value="0"/>
+                <property key="labeling/textColorA" value="255"/>
+                <property key="labeling/textColorB" value="0"/>
+                <property key="labeling/textColorG" value="0"/>
+                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value=""/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+            </customproperties>
+            <blendMode>0</blendMode>
+            <featureBlendMode>0</featureBlendMode>
+            <layerTransparency>0</layerTransparency>
+            <displayfield>NAME_ENGLI</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Cantarell"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype labelontop="0" editable="1" type="0" name="ACP"/>
+                <edittype labelontop="0" editable="1" type="0" name="AOSIS"/>
+                <edittype labelontop="0" editable="1" type="0" name="ASEAN"/>
+                <edittype labelontop="0" editable="1" type="0" name="Agadir"/>
+                <edittype labelontop="0" editable="1" type="0" name="AndyID"/>
+                <edittype labelontop="0" editable="1" type="0" name="CACM"/>
+                <edittype labelontop="0" editable="1" type="0" name="CAN"/>
+                <edittype labelontop="0" editable="1" type="0" name="CARICOM"/>
+                <edittype labelontop="0" editable="1" type="0" name="CEEAC"/>
+                <edittype labelontop="0" editable="1" type="0" name="CEMAC"/>
+                <edittype labelontop="0" editable="1" type="0" name="CEPLG"/>
+                <edittype labelontop="0" editable="1" type="0" name="CIS"/>
+                <edittype labelontop="0" editable="1" type="0" name="COMESA"/>
+                <edittype labelontop="0" editable="1" type="0" name="CONTAINS"/>
+                <edittype labelontop="0" editable="1" type="0" name="CSN"/>
+                <edittype labelontop="0" editable="1" type="0" name="DEVELOPING"/>
+                <edittype labelontop="0" editable="1" type="0" name="EAC"/>
+                <edittype labelontop="0" editable="1" type="0" name="ECOWAS"/>
+                <edittype labelontop="0" editable="1" type="0" name="EU"/>
+                <edittype labelontop="0" editable="1" type="0" name="EurAsEC"/>
+                <edittype labelontop="0" editable="1" type="0" name="FIPS"/>
+                <edittype labelontop="0" editable="1" type="0" name="GADMID"/>
+                <edittype labelontop="0" editable="1" type="0" name="GCC"/>
+                <edittype labelontop="0" editable="1" type="0" name="IGAD"/>
+                <edittype labelontop="0" editable="1" type="0" name="IOC"/>
+                <edittype labelontop="0" editable="1" type="0" name="ISO"/>
+                <edittype labelontop="0" editable="1" type="0" name="ISO2"/>
+                <edittype labelontop="0" editable="1" type="0" name="ISON"/>
+                <edittype labelontop="0" editable="1" type="0" name="Islands"/>
+                <edittype labelontop="0" editable="1" type="0" name="LDC"/>
+                <edittype labelontop="0" editable="1" type="0" name="Landlocked"/>
+                <edittype labelontop="0" editable="1" type="0" name="MRU"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAFTA"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_ARABI"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_CHINE"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_ENGLI"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_FAO"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_FRENC"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_ISO"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_LOCAL"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_NONLA"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_OBSOL"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_RUSSI"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_SPANI"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_VARIA"/>
+                <edittype labelontop="0" editable="1" type="0" name="OECD"/>
+                <edittype labelontop="0" editable="1" type="0" name="PALOP"/>
+                <edittype labelontop="0" editable="1" type="0" name="PARTA"/>
+                <edittype labelontop="0" editable="1" type="0" name="POP2000"/>
+                <edittype labelontop="0" editable="1" type="0" name="POPSQKM"/>
+                <edittype labelontop="0" editable="1" type="0" name="SAARC"/>
+                <edittype labelontop="0" editable="1" type="0" name="SACU"/>
+                <edittype labelontop="0" editable="1" type="0" name="SIDS"/>
+                <edittype labelontop="0" editable="1" type="0" name="SOVEREIGN"/>
+                <edittype labelontop="0" editable="1" type="0" name="SQKM"/>
+                <edittype labelontop="0" editable="1" type="0" name="Shape_Area"/>
+                <edittype labelontop="0" editable="1" type="0" name="Shape_Leng"/>
+                <edittype labelontop="0" editable="1" type="0" name="Transition"/>
+                <edittype labelontop="0" editable="1" type="0" name="UEMOA"/>
+                <edittype labelontop="0" editable="1" type="0" name="UMA"/>
+                <edittype labelontop="0" editable="1" type="0" name="UNREGION1"/>
+                <edittype labelontop="0" editable="1" type="0" name="UNREGION2"/>
+                <edittype labelontop="0" editable="1" type="0" name="VALIDFR"/>
+                <edittype labelontop="0" editable="1" type="0" name="VALIDTO"/>
+                <edittype labelontop="0" editable="1" type="0" name="WASPARTOF"/>
+                <edittype labelontop="0" editable="1" type="0" name="WBDEBT"/>
+                <edittype labelontop="0" editable="1" type="0" name="WBINCOME"/>
+                <edittype labelontop="0" editable="1" type="0" name="WBOTHER"/>
+                <edittype labelontop="0" editable="1" type="0" name="WBREGION"/>
+                <edittype labelontop="0" editable="1" type="0" name="WWW"/>
+            </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <editorlayout>generatedlayout</editorlayout>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+            <id>NLD_adm0_laea20151206164033443</id>
+            <datasource>../background/countries/NLD_adm0.laea.shp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>NLD_adm0.laea</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=laea +lat_0=55 +lon_0=20 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs</proj4>
+                    <srsid>100000</srsid>
+                    <srid>0</srid>
+                    <authid>USER:100000</authid>
+                    <description> * Generated CRS (+proj=laea +lat_0=55 +lon_0=20 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs)</description>
+                    <projectionacronym>laea</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <provider encoding="System">ogr</provider>
+            <previewExpression></previewExpression>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_unit" v="MM"/>
+                            <prop k="color" v="32,163,61,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="style" v="no"/>
+                            <prop k="style_border" v="dot"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field="" scalemethod="area"/>
+            </renderer-v2>
+            <customproperties>
+                <property key="labeling" value="pal"/>
+                <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
+                <property key="labeling/blendMode" value="0"/>
+                <property key="labeling/bufferBlendMode" value="0"/>
+                <property key="labeling/bufferColorA" value="255"/>
+                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorG" value="255"/>
+                <property key="labeling/bufferColorR" value="255"/>
+                <property key="labeling/bufferDraw" value="false"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/decimals" value="3"/>
+                <property key="labeling/displayAll" value="false"/>
+                <property key="labeling/dist" value="0"/>
+                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/enabled" value="false"/>
+                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/fontBold" value="false"/>
+                <property key="labeling/fontCapitals" value="0"/>
+                <property key="labeling/fontFamily" value="Cantarell"/>
+                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="false"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="11"/>
+                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontStrikeout" value="false"/>
+                <property key="labeling/fontUnderline" value="false"/>
+                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="false"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
+                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="2000"/>
+                <property key="labeling/mergeLines" value="false"/>
+                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value="Regular"/>
+                <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
+                <property key="labeling/placement" value="0"/>
+                <property key="labeling/placementFlags" value="0"/>
+                <property key="labeling/plussign" value="false"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+                <property key="labeling/priority" value="5"/>
+                <property key="labeling/quadOffset" value="4"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
+                <property key="labeling/scaleMax" value="10000000"/>
+                <property key="labeling/scaleMin" value="1"/>
+                <property key="labeling/scaleVisibility" value="false"/>
+                <property key="labeling/shadowBlendMode" value="6"/>
+                <property key="labeling/shadowColorB" value="0"/>
+                <property key="labeling/shadowColorG" value="0"/>
+                <property key="labeling/shadowColorR" value="0"/>
+                <property key="labeling/shadowDraw" value="false"/>
+                <property key="labeling/shadowOffsetAngle" value="135"/>
+                <property key="labeling/shadowOffsetDist" value="1"/>
+                <property key="labeling/shadowOffsetGlobal" value="true"/>
+                <property key="labeling/shadowOffsetUnits" value="1"/>
+                <property key="labeling/shadowRadius" value="1.5"/>
+                <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+                <property key="labeling/shadowRadiusUnits" value="1"/>
+                <property key="labeling/shadowScale" value="100"/>
+                <property key="labeling/shadowTransparency" value="30"/>
+                <property key="labeling/shadowUnder" value="0"/>
+                <property key="labeling/shapeBlendMode" value="0"/>
+                <property key="labeling/shapeBorderColorA" value="255"/>
+                <property key="labeling/shapeBorderColorB" value="128"/>
+                <property key="labeling/shapeBorderColorG" value="128"/>
+                <property key="labeling/shapeBorderColorR" value="128"/>
+                <property key="labeling/shapeBorderWidth" value="0"/>
+                <property key="labeling/shapeBorderWidthUnits" value="1"/>
+                <property key="labeling/shapeDraw" value="false"/>
+                <property key="labeling/shapeFillColorA" value="255"/>
+                <property key="labeling/shapeFillColorB" value="255"/>
+                <property key="labeling/shapeFillColorG" value="255"/>
+                <property key="labeling/shapeFillColorR" value="255"/>
+                <property key="labeling/shapeJoinStyle" value="64"/>
+                <property key="labeling/shapeOffsetUnits" value="1"/>
+                <property key="labeling/shapeOffsetX" value="0"/>
+                <property key="labeling/shapeOffsetY" value="0"/>
+                <property key="labeling/shapeRadiiUnits" value="1"/>
+                <property key="labeling/shapeRadiiX" value="0"/>
+                <property key="labeling/shapeRadiiY" value="0"/>
+                <property key="labeling/shapeRotation" value="0"/>
+                <property key="labeling/shapeRotationType" value="0"/>
+                <property key="labeling/shapeSVGFile" value=""/>
+                <property key="labeling/shapeSizeType" value="0"/>
+                <property key="labeling/shapeSizeUnits" value="1"/>
+                <property key="labeling/shapeSizeX" value="0"/>
+                <property key="labeling/shapeSizeY" value="0"/>
+                <property key="labeling/shapeTransparency" value="0"/>
+                <property key="labeling/shapeType" value="0"/>
+                <property key="labeling/textColorA" value="255"/>
+                <property key="labeling/textColorB" value="0"/>
+                <property key="labeling/textColorG" value="0"/>
+                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value=""/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+            </customproperties>
+            <blendMode>0</blendMode>
+            <featureBlendMode>0</featureBlendMode>
+            <layerTransparency>0</layerTransparency>
+            <displayfield>NAME_ENGLI</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Cantarell"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype labelontop="0" editable="1" type="0" name="ACP"/>
+                <edittype labelontop="0" editable="1" type="0" name="AOSIS"/>
+                <edittype labelontop="0" editable="1" type="0" name="ASEAN"/>
+                <edittype labelontop="0" editable="1" type="0" name="Agadir"/>
+                <edittype labelontop="0" editable="1" type="0" name="AndyID"/>
+                <edittype labelontop="0" editable="1" type="0" name="CACM"/>
+                <edittype labelontop="0" editable="1" type="0" name="CAN"/>
+                <edittype labelontop="0" editable="1" type="0" name="CARICOM"/>
+                <edittype labelontop="0" editable="1" type="0" name="CEEAC"/>
+                <edittype labelontop="0" editable="1" type="0" name="CEMAC"/>
+                <edittype labelontop="0" editable="1" type="0" name="CEPLG"/>
+                <edittype labelontop="0" editable="1" type="0" name="CIS"/>
+                <edittype labelontop="0" editable="1" type="0" name="COMESA"/>
+                <edittype labelontop="0" editable="1" type="0" name="CONTAINS"/>
+                <edittype labelontop="0" editable="1" type="0" name="CSN"/>
+                <edittype labelontop="0" editable="1" type="0" name="DEVELOPING"/>
+                <edittype labelontop="0" editable="1" type="0" name="EAC"/>
+                <edittype labelontop="0" editable="1" type="0" name="ECOWAS"/>
+                <edittype labelontop="0" editable="1" type="0" name="EU"/>
+                <edittype labelontop="0" editable="1" type="0" name="EurAsEC"/>
+                <edittype labelontop="0" editable="1" type="0" name="FIPS"/>
+                <edittype labelontop="0" editable="1" type="0" name="GADMID"/>
+                <edittype labelontop="0" editable="1" type="0" name="GCC"/>
+                <edittype labelontop="0" editable="1" type="0" name="IGAD"/>
+                <edittype labelontop="0" editable="1" type="0" name="IOC"/>
+                <edittype labelontop="0" editable="1" type="0" name="ISO"/>
+                <edittype labelontop="0" editable="1" type="0" name="ISO2"/>
+                <edittype labelontop="0" editable="1" type="0" name="ISON"/>
+                <edittype labelontop="0" editable="1" type="0" name="Islands"/>
+                <edittype labelontop="0" editable="1" type="0" name="LDC"/>
+                <edittype labelontop="0" editable="1" type="0" name="Landlocked"/>
+                <edittype labelontop="0" editable="1" type="0" name="MRU"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAFTA"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_ARABI"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_CHINE"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_ENGLI"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_FAO"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_FRENC"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_ISO"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_LOCAL"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_NONLA"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_OBSOL"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_RUSSI"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_SPANI"/>
+                <edittype labelontop="0" editable="1" type="0" name="NAME_VARIA"/>
+                <edittype labelontop="0" editable="1" type="0" name="OECD"/>
+                <edittype labelontop="0" editable="1" type="0" name="PALOP"/>
+                <edittype labelontop="0" editable="1" type="0" name="PARTA"/>
+                <edittype labelontop="0" editable="1" type="0" name="POP2000"/>
+                <edittype labelontop="0" editable="1" type="0" name="POPSQKM"/>
+                <edittype labelontop="0" editable="1" type="0" name="SAARC"/>
+                <edittype labelontop="0" editable="1" type="0" name="SACU"/>
+                <edittype labelontop="0" editable="1" type="0" name="SIDS"/>
+                <edittype labelontop="0" editable="1" type="0" name="SOVEREIGN"/>
+                <edittype labelontop="0" editable="1" type="0" name="SQKM"/>
+                <edittype labelontop="0" editable="1" type="0" name="Shape_Area"/>
+                <edittype labelontop="0" editable="1" type="0" name="Shape_Leng"/>
+                <edittype labelontop="0" editable="1" type="0" name="Transition"/>
+                <edittype labelontop="0" editable="1" type="0" name="UEMOA"/>
+                <edittype labelontop="0" editable="1" type="0" name="UMA"/>
+                <edittype labelontop="0" editable="1" type="0" name="UNREGION1"/>
+                <edittype labelontop="0" editable="1" type="0" name="UNREGION2"/>
+                <edittype labelontop="0" editable="1" type="0" name="VALIDFR"/>
+                <edittype labelontop="0" editable="1" type="0" name="VALIDTO"/>
+                <edittype labelontop="0" editable="1" type="0" name="WASPARTOF"/>
+                <edittype labelontop="0" editable="1" type="0" name="WBDEBT"/>
+                <edittype labelontop="0" editable="1" type="0" name="WBINCOME"/>
+                <edittype labelontop="0" editable="1" type="0" name="WBOTHER"/>
+                <edittype labelontop="0" editable="1" type="0" name="WBREGION"/>
+                <edittype labelontop="0" editable="1" type="0" name="WWW"/>
+            </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <editorlayout>generatedlayout</editorlayout>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>mhm_0p062520151207224013840</id>
+            <datasource>../mhm/mhm_0p0625.asc</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>mhm_0p0625</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                    <srsid>3452</srsid>
+                    <srid>4326</srid>
+                    <authid>EPSG:4326</authid>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Value"/>
+            </customproperties>
+            <provider>gdal</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="0" classificationMax="750" classificationMinMaxOrigin="User" band="1" classificationMin="0" type="singlebandpseudocolor">
+                    <rasterTransparency/>
+                    <rastershader>
+                        <colorrampshader colorRampType="INTERPOLATED" clip="0">
+                            <item alpha="255" value="0" label="0.000000" color="#1316b4"/>
+                            <item alpha="255" value="50" label="50.000000" color="#2331c7"/>
+                            <item alpha="255" value="100" label="100.000000" color="#3755cb"/>
+                            <item alpha="255" value="150" label="150.000000" color="#365fc6"/>
+                            <item alpha="255" value="200" label="200.000000" color="#507dd2"/>
+                            <item alpha="255" value="250" label="250.000000" color="#598dd6"/>
+                            <item alpha="255" value="300" label="300.000000" color="#7eb9e9"/>
+                            <item alpha="255" value="350" label="350.000000" color="#a5d7ff"/>
+                            <item alpha="255" value="400" label="400.000000" color="#b4dfa8"/>
+                            <item alpha="255" value="450" label="450.000000" color="#b0d793"/>
+                            <item alpha="255" value="500" label="500.000000" color="#dbc85b"/>
+                            <item alpha="255" value="550" label="550.000000" color="#debd50"/>
+                            <item alpha="255" value="600" label="600.000000" color="#d39242"/>
+                            <item alpha="255" value="650" label="650.000000" color="#d1853e"/>
+                            <item alpha="255" value="700" label="700.000000" color="#ca6232"/>
+                            <item alpha="255" value="750" label="750.000000" color="#c74528"/>
+                        </colorrampshader>
+                    </rastershader>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>mhm_0p520151207223959646</id>
+            <datasource>../mhm/mhm_0p5.asc</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>mhm_0p5</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                    <srsid>3452</srsid>
+                    <srid>4326</srid>
+                    <authid>EPSG:4326</authid>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Value"/>
+            </customproperties>
+            <provider>gdal</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="0" classificationMax="750" classificationMinMaxOrigin="User" band="1" classificationMin="0" type="singlebandpseudocolor">
+                    <rasterTransparency/>
+                    <rastershader>
+                        <colorrampshader colorRampType="INTERPOLATED" clip="0">
+                            <item alpha="255" value="0" label="0.000000" color="#1316b4"/>
+                            <item alpha="255" value="50" label="50.000000" color="#2331c7"/>
+                            <item alpha="255" value="100" label="100.000000" color="#3755cb"/>
+                            <item alpha="255" value="150" label="150.000000" color="#365fc6"/>
+                            <item alpha="255" value="200" label="200.000000" color="#507dd2"/>
+                            <item alpha="255" value="250" label="250.000000" color="#598dd6"/>
+                            <item alpha="255" value="300" label="300.000000" color="#7eb9e9"/>
+                            <item alpha="255" value="350" label="350.000000" color="#a5d7ff"/>
+                            <item alpha="255" value="400" label="400.000000" color="#b4dfa8"/>
+                            <item alpha="255" value="450" label="450.000000" color="#b0d793"/>
+                            <item alpha="255" value="500" label="500.000000" color="#dbc85b"/>
+                            <item alpha="255" value="550" label="550.000000" color="#debd50"/>
+                            <item alpha="255" value="600" label="600.000000" color="#d39242"/>
+                            <item alpha="255" value="650" label="650.000000" color="#d1853e"/>
+                            <item alpha="255" value="700" label="700.000000" color="#ca6232"/>
+                            <item alpha="255" value="750" label="750.000000" color="#c74528"/>
+                        </colorrampshader>
+                    </rastershader>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+            <id>rhine_river_laea20151206164006105</id>
+            <datasource>../background/rhine_river/rhine_river.laea.shp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>rhine_river.laea</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=laea +lat_0=55 +lon_0=20 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs</proj4>
+                    <srsid>100000</srsid>
+                    <srid>0</srid>
+                    <authid>USER:100000</authid>
+                    <description> * Generated CRS (+proj=laea +lat_0=55 +lon_0=20 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs)</description>
+                    <projectionacronym>laea</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <provider encoding="System">ogr</provider>
+            <previewExpression></previewExpression>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol alpha="0.498039" type="line" name="0">
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="square"/>
+                            <prop k="color" v="0,0,0,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.5"/>
+                            <prop k="width_unit" v="MM"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field="" scalemethod="area"/>
+            </renderer-v2>
+            <customproperties>
+                <property key="labeling" value="pal"/>
+                <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
+                <property key="labeling/blendMode" value="0"/>
+                <property key="labeling/bufferBlendMode" value="0"/>
+                <property key="labeling/bufferColorA" value="255"/>
+                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorG" value="255"/>
+                <property key="labeling/bufferColorR" value="255"/>
+                <property key="labeling/bufferDraw" value="false"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/decimals" value="3"/>
+                <property key="labeling/displayAll" value="false"/>
+                <property key="labeling/dist" value="0"/>
+                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/enabled" value="false"/>
+                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/fontBold" value="false"/>
+                <property key="labeling/fontCapitals" value="0"/>
+                <property key="labeling/fontFamily" value="Cantarell"/>
+                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="false"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="11"/>
+                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontStrikeout" value="false"/>
+                <property key="labeling/fontUnderline" value="false"/>
+                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="false"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
+                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="2000"/>
+                <property key="labeling/mergeLines" value="false"/>
+                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value="Regular"/>
+                <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
+                <property key="labeling/placement" value="2"/>
+                <property key="labeling/placementFlags" value="10"/>
+                <property key="labeling/plussign" value="false"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+                <property key="labeling/priority" value="5"/>
+                <property key="labeling/quadOffset" value="4"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
+                <property key="labeling/scaleMax" value="10000000"/>
+                <property key="labeling/scaleMin" value="1"/>
+                <property key="labeling/scaleVisibility" value="false"/>
+                <property key="labeling/shadowBlendMode" value="6"/>
+                <property key="labeling/shadowColorB" value="0"/>
+                <property key="labeling/shadowColorG" value="0"/>
+                <property key="labeling/shadowColorR" value="0"/>
+                <property key="labeling/shadowDraw" value="false"/>
+                <property key="labeling/shadowOffsetAngle" value="135"/>
+                <property key="labeling/shadowOffsetDist" value="1"/>
+                <property key="labeling/shadowOffsetGlobal" value="true"/>
+                <property key="labeling/shadowOffsetUnits" value="1"/>
+                <property key="labeling/shadowRadius" value="1.5"/>
+                <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+                <property key="labeling/shadowRadiusUnits" value="1"/>
+                <property key="labeling/shadowScale" value="100"/>
+                <property key="labeling/shadowTransparency" value="30"/>
+                <property key="labeling/shadowUnder" value="0"/>
+                <property key="labeling/shapeBlendMode" value="0"/>
+                <property key="labeling/shapeBorderColorA" value="255"/>
+                <property key="labeling/shapeBorderColorB" value="128"/>
+                <property key="labeling/shapeBorderColorG" value="128"/>
+                <property key="labeling/shapeBorderColorR" value="128"/>
+                <property key="labeling/shapeBorderWidth" value="0"/>
+                <property key="labeling/shapeBorderWidthUnits" value="1"/>
+                <property key="labeling/shapeDraw" value="false"/>
+                <property key="labeling/shapeFillColorA" value="255"/>
+                <property key="labeling/shapeFillColorB" value="255"/>
+                <property key="labeling/shapeFillColorG" value="255"/>
+                <property key="labeling/shapeFillColorR" value="255"/>
+                <property key="labeling/shapeJoinStyle" value="64"/>
+                <property key="labeling/shapeOffsetUnits" value="1"/>
+                <property key="labeling/shapeOffsetX" value="0"/>
+                <property key="labeling/shapeOffsetY" value="0"/>
+                <property key="labeling/shapeRadiiUnits" value="1"/>
+                <property key="labeling/shapeRadiiX" value="0"/>
+                <property key="labeling/shapeRadiiY" value="0"/>
+                <property key="labeling/shapeRotation" value="0"/>
+                <property key="labeling/shapeRotationType" value="0"/>
+                <property key="labeling/shapeSVGFile" value=""/>
+                <property key="labeling/shapeSizeType" value="0"/>
+                <property key="labeling/shapeSizeUnits" value="1"/>
+                <property key="labeling/shapeSizeX" value="0"/>
+                <property key="labeling/shapeSizeY" value="0"/>
+                <property key="labeling/shapeTransparency" value="0"/>
+                <property key="labeling/shapeType" value="0"/>
+                <property key="labeling/textColorA" value="255"/>
+                <property key="labeling/textColorB" value="0"/>
+                <property key="labeling/textColorG" value="0"/>
+                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value=""/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+            </customproperties>
+            <blendMode>0</blendMode>
+            <featureBlendMode>0</featureBlendMode>
+            <layerTransparency>0</layerTransparency>
+            <displayfield>FID</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Cantarell"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype labelontop="0" editable="1" type="0" name="FID"/>
+            </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <editorlayout>generatedlayout</editorlayout>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>totalEvaporation_annuaTot_output_200320151206175736511</id>
+            <datasource>../pcrglobwb/30min/totalEvaporation_annuaTot_output.2003.map</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>totalEvaporation_annuaTot_output.2003</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                    <srsid>3452</srsid>
+                    <srid>4326</srid>
+                    <authid>EPSG:4326</authid>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Value"/>
+            </customproperties>
+            <provider>gdal</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" classificationMax="0.75" classificationMinMaxOrigin="User" band="1" classificationMin="0" type="singlebandpseudocolor">
+                    <rasterTransparency/>
+                    <rastershader>
+                        <colorrampshader colorRampType="INTERPOLATED" clip="0">
+                            <item alpha="255" value="0" label="0 mm/year" color="#1316b4"/>
+                            <item alpha="255" value="0.05" label="50" color="#2331c7"/>
+                            <item alpha="255" value="0.1" label="100" color="#3755cb"/>
+                            <item alpha="255" value="0.15" label="150" color="#365fc6"/>
+                            <item alpha="255" value="0.2" label="200" color="#507dd2"/>
+                            <item alpha="255" value="0.25" label="250" color="#598dd6"/>
+                            <item alpha="255" value="0.3" label="300" color="#7eb9e9"/>
+                            <item alpha="255" value="0.35" label="350" color="#a5d7ff"/>
+                            <item alpha="255" value="0.4" label="400" color="#b4dfa8"/>
+                            <item alpha="255" value="0.45" label="450" color="#b0d793"/>
+                            <item alpha="255" value="0.5" label="500" color="#dbc85b"/>
+                            <item alpha="255" value="0.55" label="550 " color="#debd50"/>
+                            <item alpha="255" value="0.6" label="600" color="#d39242"/>
+                            <item alpha="255" value="0.65" label="650" color="#d1853e"/>
+                            <item alpha="255" value="0.7" label="700" color="#ca6232"/>
+                            <item alpha="255" value="0.75" label="750" color="#c74528"/>
+                        </colorrampshader>
+                    </rastershader>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>totalEvaporation_annuaTot_output_2003_laea20151206164151235</id>
+            <datasource>../pcrglobwb/05min/totalEvaporation_annuaTot_output.2003.laea.map</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>totalEvaporation_annuaTot_output.2003.laea</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=laea +lat_0=55 +lon_0=20 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs</proj4>
+                    <srsid>100000</srsid>
+                    <srid>0</srid>
+                    <authid>USER:100000</authid>
+                    <description> * Generated CRS (+proj=laea +lat_0=55 +lon_0=20 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs)</description>
+                    <projectionacronym>laea</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Value"/>
+            </customproperties>
+            <provider>gdal</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="0" classificationMax="0.75" classificationMinMaxOrigin="User" band="1" classificationMin="0" type="singlebandpseudocolor">
+                    <rasterTransparency/>
+                    <rastershader>
+                        <colorrampshader colorRampType="INTERPOLATED" clip="0">
+                            <item alpha="255" value="0" label="0.000000" color="#1316b4"/>
+                            <item alpha="255" value="0.05" label="0.050000" color="#2331c7"/>
+                            <item alpha="255" value="0.1" label="0.100000" color="#3755cb"/>
+                            <item alpha="255" value="0.15" label="0.150000" color="#365fc6"/>
+                            <item alpha="255" value="0.2" label="0.200000" color="#507dd2"/>
+                            <item alpha="255" value="0.25" label="0.250000" color="#598dd6"/>
+                            <item alpha="255" value="0.3" label="0.300000" color="#7eb9e9"/>
+                            <item alpha="255" value="0.35" label="0.350000" color="#a5d7ff"/>
+                            <item alpha="255" value="0.4" label="0.400000" color="#b4dfa8"/>
+                            <item alpha="255" value="0.45" label="0.450000" color="#b0d793"/>
+                            <item alpha="255" value="0.5" label="0.500000" color="#dbc85b"/>
+                            <item alpha="255" value="0.55" label="0.550000" color="#debd50"/>
+                            <item alpha="255" value="0.6" label="0.600000" color="#d39242"/>
+                            <item alpha="255" value="0.65" label="0.650000" color="#d1853e"/>
+                            <item alpha="255" value="0.7" label="0.700000" color="#ca6232"/>
+                            <item alpha="255" value="0.75" label="0.750000" color="#c74528"/>
+                        </colorrampshader>
+                    </rastershader>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>watergap_30arcmin20151206175718824</id>
+            <datasource>../watergap/watergap_30arcmin.map</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>watergap_30arcmin</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                    <srsid>3452</srsid>
+                    <srid>4326</srid>
+                    <authid>EPSG:4326</authid>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Value"/>
+            </customproperties>
+            <provider>gdal</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="0" classificationMax="750" classificationMinMaxOrigin="User" band="1" classificationMin="0" type="singlebandpseudocolor">
+                    <rasterTransparency/>
+                    <rastershader>
+                        <colorrampshader colorRampType="INTERPOLATED" clip="0">
+                            <item alpha="255" value="0" label="0.000000" color="#1316b4"/>
+                            <item alpha="255" value="50" label="50.000000" color="#2331c7"/>
+                            <item alpha="255" value="100" label="100.000000" color="#3755cb"/>
+                            <item alpha="255" value="150" label="150.000000" color="#365fc6"/>
+                            <item alpha="255" value="200" label="200.000000" color="#507dd2"/>
+                            <item alpha="255" value="250" label="250.000000" color="#598dd6"/>
+                            <item alpha="255" value="300" label="300.000000" color="#7eb9e9"/>
+                            <item alpha="255" value="350" label="350.000000" color="#a5d7ff"/>
+                            <item alpha="255" value="400" label="400.000000" color="#b4dfa8"/>
+                            <item alpha="255" value="450" label="450.000000" color="#b0d793"/>
+                            <item alpha="255" value="500" label="500.000000" color="#dbc85b"/>
+                            <item alpha="255" value="550" label="550.000000" color="#debd50"/>
+                            <item alpha="255" value="600" label="600.000000" color="#d39242"/>
+                            <item alpha="255" value="650" label="650.000000" color="#d1853e"/>
+                            <item alpha="255" value="700" label="700.000000" color="#ca6232"/>
+                            <item alpha="255" value="750" label="750.000000" color="#c74528"/>
+                        </colorrampshader>
+                    </rastershader>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>watergap_5arcmin20151206175704355</id>
+            <datasource>../watergap/watergap_5arcmin.map</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>watergap_5arcmin</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                    <srsid>3452</srsid>
+                    <srid>4326</srid>
+                    <authid>EPSG:4326</authid>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Value"/>
+            </customproperties>
+            <provider>gdal</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="0" classificationMax="750" classificationMinMaxOrigin="User" band="1" classificationMin="0" type="singlebandpseudocolor">
+                    <rasterTransparency/>
+                    <rastershader>
+                        <colorrampshader colorRampType="INTERPOLATED" clip="0">
+                            <item alpha="255" value="0" label="0.000000" color="#1316b4"/>
+                            <item alpha="255" value="50" label="50.000000" color="#2331c7"/>
+                            <item alpha="255" value="100" label="100.000000" color="#3755cb"/>
+                            <item alpha="255" value="150" label="150.000000" color="#365fc6"/>
+                            <item alpha="255" value="200" label="200.000000" color="#507dd2"/>
+                            <item alpha="255" value="250" label="250.000000" color="#598dd6"/>
+                            <item alpha="255" value="300" label="300.000000" color="#7eb9e9"/>
+                            <item alpha="255" value="350" label="350.000000" color="#a5d7ff"/>
+                            <item alpha="255" value="400" label="400.000000" color="#b4dfa8"/>
+                            <item alpha="255" value="450" label="450.000000" color="#b0d793"/>
+                            <item alpha="255" value="500" label="500.000000" color="#dbc85b"/>
+                            <item alpha="255" value="550" label="550.000000" color="#debd50"/>
+                            <item alpha="255" value="600" label="600.000000" color="#d39242"/>
+                            <item alpha="255" value="650" label="650.000000" color="#d1853e"/>
+                            <item alpha="255" value="700" label="700.000000" color="#ca6232"/>
+                            <item alpha="255" value="750" label="750.000000" color="#c74528"/>
+                        </colorrampshader>
+                    </rastershader>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+    </projectlayers>
+    <properties>
+        <SpatialRefSys>
+            <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
+            <ProjectCRSID type="int">100000</ProjectCRSID>
+            <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+        </SpatialRefSys>
+        <Paths>
+            <Absolute type="bool">false</Absolute>
+        </Paths>
+        <Gui>
+            <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+            <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+            <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+            <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+            <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+            <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+            <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+        </Gui>
+        <PositionPrecision>
+            <DecimalPlaces type="int">2</DecimalPlaces>
+            <Automatic type="bool">true</Automatic>
+        </PositionPrecision>
+    </properties>
+</qgis>
